@@ -122,10 +122,10 @@ class Header extends Component {
                                                 <nav>
                                                     <ul className="sigma-main-menu">
                                                         <li className="menu-item menu-item-has-children">
-                                                            <Link to="#">
+                                                            <Link to="/">
                                                                 Home
                                                             </Link>
-                                                            <ul className="sub-menu">
+                                                            {/* <ul className="sub-menu">
                                                                 <li className="menu-item">
                                                                     <Link to="/">Home 1</Link>
                                                                 </li>
@@ -138,11 +138,11 @@ class Header extends Component {
                                                                 <li className="menu-item">
                                                                     <Link to="/home-four">Home 4</Link>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </li>
                                                         <li className="menu-item menu-item-has-children menu-item-has-megamenu">
                                                             <Link to="#">
-                                                                Categories
+                                                                Items & Services
                                                             </Link>
                                                             <div className="sub-menu">
                                                                 <div className="container">
@@ -150,19 +150,19 @@ class Header extends Component {
                                                                         <div className="col-lg-3">
                                                                             <ul className="sigm-megamenu-nav nav nav-tabs">
                                                                                 <li className="nav-item">
-                                                                                    <Link to="#tab1" className="nav-link active" data-toggle="tab"><i className="fal fa-female" /> Rings</Link>
+                                                                                    <Link to="#tab1" className="nav-link active" data-toggle="tab"><i className="fal fa-female" /> Products</Link>
                                                                                 </li>
                                                                                 <li className="nav-item">
-                                                                                    <Link to="#tab2" className="nav-link" data-toggle="tab"><i className="fal fa-user" /> Earrings</Link>
+                                                                                    <Link to="#tab2" className="nav-link" data-toggle="tab"><i className="fal fa-user" /> Services</Link>
                                                                                 </li>
                                                                                 <li className="nav-item">
-                                                                                    <Link to="#tab3" className="nav-link" data-toggle="tab"><i className="fal fa-baby" /> Bracelets</Link>
+                                                                                    {/* <Link to="#tab3" className="nav-link" data-toggle="tab"><i className="fal fa-baby" /> Bracelets</Link> */}
                                                                                 </li>
                                                                                 <li className="nav-item">
-                                                                                    <Link to="#tab4" className="nav-link" data-toggle="tab"><i className="fal fa-suitcase-rolling" /> Pendants</Link>
+                                                                                    {/* <Link to="#tab4" className="nav-link" data-toggle="tab"><i className="fal fa-suitcase-rolling" /> Pendants</Link> */}
                                                                                 </li>
                                                                                 <li className="nav-item">
-                                                                                    <Link to="#tab5" className="nav-link" data-toggle="tab"><i className="fal fa-badge-check" /> Necklaces</Link>
+                                                                                    {/* <Link to="#tab5" className="nav-link" data-toggle="tab"><i className="fal fa-badge-check" /> Necklaces</Link> */}
                                                                                 </li>
                                                                             </ul>
                                                                         </div>
@@ -172,12 +172,12 @@ class Header extends Component {
                                                                                     <div className="row">
                                                                                         <div className="col-lg-4">
                                                                                             <div className="sigma-megamenu-navbox menu-item-has-children">
-                                                                                                <h5 className="sigma-title">Shop Pages</h5>
+                                                                                                <h5 className="sigma-title">Product Types</h5>
                                                                                                 <ul className="sub-menu">
                                                                                                     <li className="menu-item">
-                                                                                                        <Link to="/shop-left">Shop Left Sidebar</Link>
+                                                                                                        <Link to="/shop-left">KStar Essentials</Link>
                                                                                                     </li>
-                                                                                                    <li className="menu-item">
+                                                                                                    {/* <li className="menu-item">
                                                                                                         <Link to="/shop-left-two">Shop Left Sidebar v2</Link>
                                                                                                     </li>
                                                                                                     <li className="menu-item">
@@ -188,12 +188,12 @@ class Header extends Component {
                                                                                                     </li>
                                                                                                     <li className="menu-item">
                                                                                                         <Link to="/shop-detail">Product Details</Link>
-                                                                                                    </li>
+                                                                                                    </li> */}
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div className="col-lg-4">
-                                                                                            <div className="sigma-megamenu-navbox menu-item-has-children">
+                                                                                        {/* <div className="col-lg-4"> */}
+                                                                                        {/* <div className="sigma-megamenu-navbox menu-item-has-children">
                                                                                                 <h5 className="sigma-title">Other Shop Pages</h5>
                                                                                                 <ul className="sub-menu">
                                                                                                     <li className="menu-item">
@@ -212,59 +212,73 @@ class Header extends Component {
                                                                                                         <Link to="/login">Login</Link>
                                                                                                     </li>
                                                                                                 </ul>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div className="col-lg-4">
+                                                                                            </div> */}
+                                                                                        {/* </div> */}
+                                                                                        {/* <div className="col-lg-4">
                                                                                             <div className="sigma-megamenu-img">
                                                                                                 <Link to="#">
                                                                                                     <img src="assets/img/others/01.png" alt="img" />
                                                                                                 </Link>
                                                                                             </div>
-                                                                                        </div>
+                                                                                        </div> */}
                                                                                     </div>
                                                                                 </div>
                                                                                 <div className="tab-item" id="tab2">
                                                                                     <div className="row">
                                                                                         <div className="col-lg-3">
                                                                                             <div className="sigma-megamenu-navbox menu-item-has-children">
-                                                                                                <h5 className="sigma-title">Type Of Earrings</h5>
+                                                                                                <h5 className="sigma-title">Type Of Services</h5>
                                                                                                 <ul className="sub-menu">
                                                                                                     <li className="menu-item">
-                                                                                                        <Link to="/shop-left">Ruby Earrings</Link>
+                                                                                                        <Link to="/shop-left">Beauty</Link>
                                                                                                     </li>
                                                                                                     <li className="menu-item">
-                                                                                                        <Link to="/shop-left-two">Emareld Earrings</Link>
+                                                                                                        <Link to="/shop-left-two">Braid Extensions</Link>
                                                                                                     </li>
                                                                                                     <li className="menu-item">
-                                                                                                        <Link to="/shop-left">Saphire Earrings</Link>
+                                                                                                        <Link to="/shop-left">Braid Naturals</Link>
                                                                                                     </li>
                                                                                                     <li className="menu-item">
-                                                                                                        <Link to="/shop-left-two">Diamond Earrings</Link>
+                                                                                                        <Link to="/shop-left-two">Colors</Link>
                                                                                                     </li>
                                                                                                     <li className="menu-item">
-                                                                                                        <Link to="/shop-left">Gold Earrings</Link>
+                                                                                                        <Link to="/shop-left">Cuts/Trims</Link>
                                                                                                     </li>
+                                                                                                    <li className="menu-item">
+                                                                                                        <Link to="/shop-left">Locs</Link>
+                                                                                                    </li>
+
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div className="col-lg-5">
                                                                                             <div className="sigma-megamenu-navbox">
-                                                                                                <h5 className="sigma-title">Size</h5>
+                                                                                                {/* <h5 className="sigma-title">Size</h5> */}
                                                                                                 <div className="row mb-3">
                                                                                                     <div className="col-md-6 menu-item-has-children">
                                                                                                         <ul className="sub-menu">
                                                                                                             <li className="menu-item">
-                                                                                                                <Link to="/shop-left">Hoop Earrings</Link>
+                                                                                                                <Link to="/shop-left">Presses</Link>
                                                                                                             </li>
                                                                                                             <li className="menu-item">
-                                                                                                                <Link to="/shop-left-two">Dangle Earrings</Link>
+                                                                                                                <Link to="/shop-left">Relaxers</Link>
                                                                                                             </li>
                                                                                                             <li className="menu-item">
-                                                                                                                <Link to="/shop-left">Stud Earrings</Link>
+                                                                                                                <Link to="/shop-left">Sets</Link>
                                                                                                             </li>
+                                                                                                            <li className="menu-item">
+                                                                                                                <Link to="/shop-left">Twist/Naturals</Link>
+                                                                                                            </li>
+                                                                                                            <li className="menu-item">
+                                                                                                                <Link to="/shop-left-two">Wash/Treatment</Link>
+                                                                                                            </li>
+                                                                                                            <li className="menu-item">
+                                                                                                                <Link to="/shop-left">Weaves</Link>
+                                                                                                            </li>
+
                                                                                                         </ul>
                                                                                                     </div>
-                                                                                                    <div className="col-md-6 menu-item-has-children">
+                                                                                                    {/* <div className="col-md-6 menu-item-has-children">
                                                                                                         <ul className="sub-menu">
                                                                                                             <li className="menu-item">
                                                                                                                 <Link to="/shop-left-two">Barbell Earrings</Link>
@@ -276,9 +290,9 @@ class Header extends Component {
                                                                                                                 <Link to="/shop-left-two">Ear Thread Earrings</Link>
                                                                                                             </li>
                                                                                                         </ul>
-                                                                                                    </div>
+                                                                                                    </div> */}
                                                                                                 </div>
-                                                                                                <h5 className="sigma-title">Top Picks</h5>
+                                                                                                {/* <h5 className="sigma-title">Top Picks</h5>
                                                                                                 <div className="row">
                                                                                                     <div className="col-md-6 menu-item-has-children">
                                                                                                         <ul className="sub-menu">
@@ -306,16 +320,16 @@ class Header extends Component {
                                                                                                             </li>
                                                                                                         </ul>
                                                                                                     </div>
-                                                                                                </div>
+                                                                                                </div> */}
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div className="col-lg-4">
+                                                                                        {/* <div className="col-lg-4">
                                                                                             <div className="sigma-megamenu-img">
                                                                                                 <Link to="#">
                                                                                                     <img src="assets/img/others/02.png" alt="img" />
                                                                                                 </Link>
                                                                                             </div>
-                                                                                        </div>
+                                                                                        </div> */}
                                                                                     </div>
                                                                                 </div>
                                                                                 <div className="tab-item" id="tab3">
@@ -549,17 +563,17 @@ class Header extends Component {
                                                         </li> */}
                                                         <li className="menu-item menu-item-has-children">
                                                             <Link to="#">
-                                                                Blog
+                                                                About Us
                                                             </Link>
                                                             <ul className="sub-menu">
-                                                                <li className="menu-item"> <Link to="/blog-grid-sidebar">Blog Grid Sidebar</Link>
+                                                                <li className="menu-item"> <Link to="/blog-grid-sidebar">Blog</Link>
                                                                 </li>
-                                                                <li className="menu-item"> <Link to="/blog-detail">Blog Details</Link>
+                                                                <li className="menu-item"> <Link to="/blog-detail">Teams</Link>
                                                                 </li>
-                                                                <li className="menu-item"> <Link to="/blog-grid">Blog Grid</Link>
+                                                                {/* <li className="menu-item"> <Link to="/blog-grid">Blog Grid</Link>
                                                                 </li>
                                                                 <li className="menu-item"> <Link to="/blog-list">Blog List</Link>
-                                                                </li>
+                                                                </li> */}
                                                             </ul>
                                                         </li>
                                                         <li className="menu-item menu-item-has-children">
@@ -567,38 +581,33 @@ class Header extends Component {
                                                                 Photos
                                                             </Link>
                                                             <ul className="sub-menu">
-                                                                <li className="menu-item">
+                                                                {/* <li className="menu-item">
                                                                     <Link to="/about">About</Link>
-                                                                </li>
-                                                                <li className="menu-item">
+                                                                </li> */}
+                                                                {/* <li className="menu-item">
                                                                     <Link to="/classification">Classification</Link>
                                                                 </li>
                                                                 <li className="menu-item">
                                                                     <Link to="/account">Account</Link>
-                                                                </li>
-                                                                <li className="menu-item menu-item-has-children">
+                                                                </li> */}
+                                                                <li className="menu-item">
                                                                     <Link to="/gallery">Gallery</Link>
-                                                                    <ul className="sub-menu">
-                                                                        <li className="menu-item">
-                                                                            <Link to="/gallery">Gallery 2 Columns</Link>
-                                                                        </li>
-                                                                        <li className="menu-item">
-                                                                            <Link to="/gallery-two">Gallery 3 Columns</Link>
-                                                                        </li>
-                                                                    </ul>
                                                                 </li>
                                                                 <li className="menu-item">
+                                                                    <Link to="/gallery-two">Gallery 2</Link>
+                                                                </li>
+                                                                {/* <li className="menu-item">
                                                                     <Link to="/team">Team</Link>
-                                                                </li>
-                                                                <li className="menu-item">
+                                                                </li> */}
+                                                                {/* <li className="menu-item">
                                                                     <Link to="/typography">Typography</Link>
-                                                                </li>
-                                                                <li className="menu-item">
+                                                                </li> */}
+                                                                {/* <li className="menu-item">
                                                                     <Link to="/error">Error 404</Link>
-                                                                </li>
-                                                                <li className="menu-item">
+                                                                </li> */}
+                                                                {/* <li className="menu-item">
                                                                     <Link to="/coming-soon">Coming Soon</Link>
-                                                                </li>
+                                                                </li> */}
                                                             </ul>
                                                         </li>
                                                         <li className="menu-item menu-item-has-children">
@@ -608,7 +617,7 @@ class Header extends Component {
                                                             {/* <Link to="#">
                                                                 Shop Luxury Hair
                                                             </Link> */}
-                                                            <ul className="sub-menu">
+                                                            {/* <ul className="sub-menu">
                                                                 <li className="menu-item">
                                                                     <Link to="/shop-left">Shop Left Sidebar</Link>
                                                                 </li>
@@ -624,7 +633,7 @@ class Header extends Component {
                                                                 <li className="menu-item">
                                                                     <Link to="/shop-detail">Product Details</Link>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </li>
                                                         <li className="menu-item">
                                                             <Link to="/contact">
@@ -640,11 +649,11 @@ class Header extends Component {
                                 {/* navbar right content */}
                                 <div className="menu-right-buttons">
                                     {/* Log in icon */}
-                                    <div className="login-btn">
+                                    {/* <div className="login-btn">
                                         <Link to="/login" id="loginBtn"><i className="fal fa-user" /></Link>
-                                    </div>
+                                    </div> */}
                                     {/* search btton */}
-                                    <div className="search">
+                                    {/* <div className="search">
                                         <Link to="#" className="search-icon" id="searchBtn">
                                             <i className="fal fa-search open-icon" />
                                             <i className="fal fa-times close-icon" />
@@ -655,12 +664,12 @@ class Header extends Component {
                                                 <button type="submit"><i className="far fa-search" /></button>
                                             </form>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     {/* Off canvas Toggle */}
                                     <div className="toggle">
                                         <Link to="#" id="offCanvasBtn" onClick={this.addClass}> <i className="fal fa-bars" /></Link>
                                     </div>
-                                    <div className="toggle dropdown-btn">
+                                    {/* <div className="toggle dropdown-btn">
                                         <span className="sigma-notification">0</span>
                                         <Link to="#" onClick={this.toggleCartm}><i className="fal fa-shopping-bag" /></Link>
                                         <div className={classNames("dropdown-menu cart-dropdown-menu", { "show": this.state.togglecart })}>
@@ -688,7 +697,7 @@ class Header extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     {/* Navbar Toggler */}
                                     <div className="navbar-toggler">
                                         <span /><span /><span />

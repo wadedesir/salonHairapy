@@ -8,21 +8,21 @@ import img2 from '../../../assets/img/shop/02.jpg';
 import img3 from '../../../assets/img/shop/03.jpg';
 
 const shopgridpost = [
-    { img: img1, title: 'Ankle Bracelet', discount: 15, price: 390 },
+    { img: img1, title: 'KStar Oil', discount: '', price: 20 },
+    { img: img2, title: 'KStar Protein', discount: '', price: 35 },
+    { img: img3, title: 'KStar Shampoo', discount: '', price: 20 },
+
+    { img: img1, title: 'KStar Gel', discount: '', price: 25 },
+    { img: img2, title: 'KStar Oils (large)', discount: '', price: 40 },
+    { img: img3, title: 'Heat Protector', discount: '', price: 20 },
+
+    { img: img1, title: 'KStar Conditioner', discount: '', price: 40 },
+    { img: img2, title: 'KStar Shampoo', discount: '', price: 10 },
+    { img: img3, title: 'Shea(small)', discount: '', price: 15 },
+
+    { img: img1, title: 'Shea Sealer', discount: '', price: 25 },
     { img: img2, title: 'Stud Earrings', discount: '', price: 290 },
-    { img: img3, title: 'Crumpled Ring', discount: 10, price: 450 },
-
-    { img: img1, title: 'Golden Pendant', discount: 15, price: 780 },
-    { img: img2, title: 'Silver Pendant.', discount: '', price: 290 },
-    { img: img3, title: 'Diamond Ring.', discount: 10, price: 890 },
-
-    { img: img1, title: 'Stud Earrings', discount: 15, price: 580 },
-    { img: img2, title: 'Ankle Bracelet', discount: 40, price: 290 },
-    { img: img3, title: 'Diamond Ring.', discount: 10, price: 800 },
-
-    { img: img1, title: 'Ankle Bracelet', discount: 15, price: 390 },
-    { img: img2, title: 'Stud Earrings', discount: '', price: 290 },
-    { img: img3, title: 'Crumpled Ring', discount: 10, price: 450 },
+    { img: img3, title: 'Crumpled Ring', discount: '', price: 450 },
 ];
 class Content extends Component {
     render() {
@@ -31,9 +31,9 @@ class Content extends Component {
                 <div className="container">
                     <div className="row justify-content-center">
                         {/* Shop Sidebar */}
-                        <div className="col-lg-4 col-md-10 col-sm-10">
-                            <Sidebar />
-                        </div>
+                        {/* <div className="col-lg-4 col-md-10 col-sm-10"> */}
+                        {/* <Sidebar /> */}
+                        {/* </div> */}
                         <div className="col-lg-8 col-md-10">
                             <div className="shop-products-wrapper">
                                 <div className="shop-product-top">

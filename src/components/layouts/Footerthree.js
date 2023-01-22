@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import Backtotop from './Backtotop';
 
-import logo from '../../assets/img/logo-2.png'
+import logo from '../../assets/img/logo-thin.jpg'
 
 class Footerthree extends Component {
     render() {
@@ -16,11 +16,11 @@ class Footerthree extends Component {
                                 <div className="col-lg-8">
                                     <div className="subscribe-text text-center">
                                         <div className="footer-logo mb-45">
-                                            <img src={logo} alt="images" />
+                                            <img style={{ width: '50%' }} src={logo} alt="images" />
                                         </div>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doing eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
-            </p>
+                                        </p>
                                         <form action="#" className="subscribe-form mt-50">
                                             <input type="email" placeholder="Enter your email address" />
                                             <button type="submit">subscribe</button>

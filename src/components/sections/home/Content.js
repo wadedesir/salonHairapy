@@ -16,26 +16,31 @@ import Video from './Video';
 import Latestproducts from '../../layouts/Latestproducts';
 import Blog from './Blog';
 
+import Productslider from './Productslider';
+// import Instafeeds from './Instafeeds';
+
 class Content extends Component {
     render() {
         return (
             <Fragment>
-                <Banner/>
-                <Category/>
-                <Habout/>
-                <Trending/>
-                <Condos/>
-                <Cta/>
-                <Bestselling/>
-                <Ourcategory/>
-                <Handpick/>
-                <Ourproducts/>
-                <Saleproducts/>
-                <Counter/>
-                <Onsale/>
-                <Video/>
-                <Latestproducts/>
-                <Blog/>
+                <Banner />
+                <Category />
+                <Habout />
+                <Trending />
+                {/* <Condos/> */}
+                {/* <Productslider /> */}
+                {/* <Instafeeds /> */}
+                <Ourproducts />
+                <Cta />
+                {/* <Bestselling /> */}
+                {/* <Ourcategory /> */}
+                {/* <Handpick /> */}
+                {/* <Saleproducts /> */}
+                {/* <Counter /> */}
+                {/* <Onsale /> */}
+                {/* <Video /> */}
+                {/* <Latestproducts /> */}
+                {/* <Blog /> */}
             </Fragment>
         );
     }

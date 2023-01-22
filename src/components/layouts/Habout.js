@@ -25,11 +25,16 @@ class Habout extends Component {
                             <div className="col-lg-6 col-md-8 col-sm-10">
                                 <div className="abour-text pl-50 pr-50">
                                     <div className="section-title mb-30">
-                                        <span className="title-tag">about us</span>
-                                        <h2>Crafting Jewellery Since 1990. </h2>
+                                        <span className="title-tag">Service</span>
+                                        <h2>Awapuhi Intensive Treatments</h2>
                                     </div>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    <p className="mb-30">
+                                        Need Intense Hydration or Repair? #GetYourDose by adding a 15-min Awapuhi Intensive Deep Conditioner from Paul Mitchell to your next service to rebuild and revive your hair!
+                                    </p>
+                                    <p className="mb-30" >
+                                        <strong>For Damaged/Chemically Treated Hair:</strong> Our Keratriplex™ treatment is a 2-step repair process that restores texture, prevents color fade and improves shine using isolated proteins virtually identical to keratin in human hair                                    </p>
+                                    <p className="" >
+                                        <strong>For Dry/Frizzy Hair:</strong> Our HydraTriplex Treatment used a concentrated blend of amino acids, vegetable proteins and nourishing oils to hydrate, smooth and soften hair
                                     </p>
                                     <Link to="/contact" className="main-btn btn-filled mt-40"> Know More</Link>
                                 </div>

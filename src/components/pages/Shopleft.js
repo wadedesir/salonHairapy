@@ -17,11 +17,11 @@ class Shopleft extends Component {
                         content="#"
                     />
                 </MetaTags>
-                <Header/>
-                <Breadcrumb breadcrumb={{pagename:'Shop Left'}}/>
-                <Content/>
-                <Instafeeds/>
-                <Footer/>
+                <Header />
+                <Breadcrumb breadcrumb={{ pagename: 'KStar Essentials' }} />
+                <Content />
+                {/* <Instafeeds /> */}
+                <Footer />
             </Fragment>
         );
     }

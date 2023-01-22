@@ -40,7 +40,7 @@ class Footer extends Component {
                                         <div className="sigma-backto-top">
                                             <Link to="#" className="back-to-top" id="backToTop" onClick={() => this.scrollToTop()}>
                                                 <i className="fal fa-chevron-up" /> Back to Top
-                </Link>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
@@ -62,7 +62,7 @@ class Footer extends Component {
                                     <div className="sigma-footer-box-top">
                                         <div className="ft-logo">
                                             <Link to="/">
-                                                <img src={logo} alt="Logo" />
+                                                {/* <img src={logo} alt="Logo" /> */}
                                             </Link>
                                         </div>
                                         <ul className="ft-social-media">
@@ -88,27 +88,27 @@ class Footer extends Component {
                                             <li className="menu-item">
                                                 <Link to="/">
                                                     Home
-                  </Link>
+                                                </Link>
                                             </li>
                                             <li className="menu-item">
                                                 <Link to="/about">
                                                     About Us
-                  </Link>
+                                                </Link>
                                             </li>
                                             <li className="menu-item">
                                                 <Link to="/blog-grid">
                                                     News
-                  </Link>
+                                                </Link>
                                             </li>
                                             <li className="menu-item">
                                                 <Link to="/gallery">
                                                     Gallery
-                  </Link>
+                                                </Link>
                                             </li>
                                             <li className="menu-item">
                                                 <Link to="/contact">
                                                     Contact
-                  </Link>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>

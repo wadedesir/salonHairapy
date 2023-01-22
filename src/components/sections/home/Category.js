@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 
 const categoryposts = [
-    { icon: 'flaticon-bracelet', title: 'Golden Pendants', numberofproduct: '12' },
-    { icon: 'flaticon-ring', title: 'Diamond Rings', numberofproduct: '27' },
+    { icon: 'flaticon-bracelet', title: 'Beauty', numberofproduct: '7' },
+    { icon: 'flaticon-ring', title: 'Weddings & Events', numberofproduct: '0' },
     { icon: 'flaticon-necklace', title: 'Gold Necklaces', numberofproduct: '18' },
     { icon: 'flaticon-earrings', title: 'Designer Earings', numberofproduct: '23' },
 ];
@@ -22,7 +22,7 @@ class Category extends Component {
                                             <i className={item.icon} />
                                         </span>
                                         <h5 className="title">{item.title}</h5>
-                                        <p>{item.numberofproduct} Products</p>
+                                        <p>{item.numberofproduct} Prices</p>
                                         <span className="overlay-icon">
                                             <i className={item.icon} />
                                         </span>
