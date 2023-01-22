@@ -52,7 +52,7 @@ class Content extends Contacthelper {
                         </div>
                     </div>
                     {/* Contact Mapts */}
-                    <Map
+                    {/* <Map
                         // eslint-disable-next-line react/style-prop-object
                         style="mapbox://styles/mapbox/light-v10"
                         className="contact-maps mb-30"
@@ -60,9 +60,10 @@ class Content extends Contacthelper {
                         <Layer type="symbol" id="marker" layout={{ 'icon-image': 'marker-15' }}>
                             <Feature coordinates={[-77.04, 38.907]} zoom={11.5} />
                         </Layer>
-                    </Map>
+                    </Map> */}
                     {/* Contact Form */}
                     <div className="contact-form">
+                        <h2 className="text-center mb-30">Book Appointment</h2>
                         <form onSubmit={this.handleSubmit} method="GET">
                             <div className="row">
                                 <div className="col-md-6">
@@ -86,7 +87,7 @@ class Content extends Contacthelper {
                                 <div className="col-md-6">
                                     <div className="input-group mb-30">
                                         <span className="icon"><i className="far fa-book" /></span>
-                                        <input type="text" placeholder="Select Subject" name="subject" value={this.state.subject} onChange={this.onSubjectChange} required />
+                                        <input type="date" placeholder="Select Subject" name="subject" value={this.state.subject} onChange={this.onSubjectChange} required />
                                     </div>
                                 </div>
                                 <div className="col-12">

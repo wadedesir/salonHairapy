@@ -275,7 +275,9 @@ class Header extends Component {
                                                                                                             <li className="menu-item">
                                                                                                                 <Link to="/shop-left">Weaves</Link>
                                                                                                             </li>
-
+                                                                                                            <li className="menu-item">
+                                                                                                                <Link to="/shop-left">Kids Corner</Link>
+                                                                                                            </li>
                                                                                                         </ul>
                                                                                                     </div>
                                                                                                     {/* <div className="col-md-6 menu-item-has-children">

@@ -17,11 +17,11 @@ class Contact extends Component {
                         content="#"
                     />
                 </MetaTags>
-                <Header/>
-                <Breadcrumb breadcrumb={{pagename:'Contact Us'}}/>
-                <Content/>
-                <Instafeeds/>
-                <Footer/>
+                <Header />
+                <Breadcrumb breadcrumb={{ pagename: 'Contact Us' }} />
+                <Content />
+                {/* <Instafeeds/> */}
+                <Footer />
             </Fragment>
         );
     }

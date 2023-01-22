@@ -34,7 +34,7 @@ import Shoprighttwo from './components/pages/Shoprighttwo';
 import Team from './components/pages/Team';
 import Typography from './components/pages/Typography';
 import Wishlist from './components/pages/Wishlist';
-
+import Beauty from './components/sections/products_services/Beauty'
 
 function App() {
   return (
@@ -70,6 +70,10 @@ function App() {
         <Route exact path="/team" component={Team} />
         <Route exact path="/typography" component={Typography} />
         <Route exact path="/wishlist" component={Wishlist} />
+        <Route exact path="/beauty/" component={<Shopleft />} />
+        <Route exact path="/beauty/:id=beauty" component={Shopleft} />
+
+
         <Route exact path="/error" component={Error} />
         <Route exact component={Error} />
       </Switch>

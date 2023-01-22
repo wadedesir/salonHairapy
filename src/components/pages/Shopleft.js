@@ -7,6 +7,7 @@ import Footer from '../layouts/Footerthree';
 import Content from '../sections/shopleft/Content';
 
 class Shopleft extends Component {
+
     render() {
         return (
             <Fragment>
