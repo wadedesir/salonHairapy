@@ -34,7 +34,6 @@ import Shoprighttwo from './components/pages/Shoprighttwo';
 import Team from './components/pages/Team';
 import Typography from './components/pages/Typography';
 import Wishlist from './components/pages/Wishlist';
-import Beauty from './components/sections/products_services/Beauty'
 
 function App() {
   return (
@@ -55,7 +54,7 @@ function App() {
         <Route exact path="/checkout" component={Checkout} />
         <Route exact path="/classification" component={Classification} />
         <Route exact path="/coming-soon" component={Comingsoon} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/book-appointment" component={Contact} />
         <Route exact path="/faq" component={Faq} />
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/gallery-two" component={Gallerytwo} />
@@ -63,15 +62,14 @@ function App() {
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/shop-detail" component={Shopdetail} />
-        <Route exact path="/shop-left" component={Shopleft} />
         <Route exact path="/shop-left-two" component={Shoplefttwo} />
         <Route exact path="/shop-right" component={Shopright} />
         <Route exact path="/shop-right-two" component={Shoprighttwo} />
         <Route exact path="/team" component={Team} />
         <Route exact path="/typography" component={Typography} />
         <Route exact path="/wishlist" component={Wishlist} />
-        <Route exact path="/beauty/" component={<Shopleft />} />
-        <Route exact path="/beauty/:id=beauty" component={Shopleft} />
+        <Route exact path="/items-services/:id" component={Shopleft} />
+        <Route exact path="/products/:id" component={Shopleft} />
 
 
         <Route exact path="/error" component={Error} />

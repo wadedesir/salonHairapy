@@ -23,14 +23,14 @@ const shopgridpost = [
 
     { img: img1, title: '2ST Add-On', discount: '', price: 25 },
     { img: img2, title: 'Starter', discount: '', price: 290 },
-    { img: img3, title: ' Repair (Per Locs)', discount: '', price: 450 },
+    { img: img3, title: 'Repair (per Locs) ', discount: '', price: 450 },
 
-    { img: img1, title: 'Interlock', discount: '', price: 25 },
-    { img: img2, title: 'Style (4 Hours)', discount: '', price: 290 },
+    { img: img1, title: 'InterLocs', discount: '', price: 25 },
+    { img: img2, title: 'Style', discount: '', price: 290 },
     { img: img3, title: 'InstaLocs (Custom)', discount: '', price: 450 },
 
-    { img: img1, title: 'Starter', discount: '', price: 25 },
-    { img: img2, title: 'Style (4 Hours)', discount: '', price: 290 },
+    { img: img1, title: 'Starter Loc Small', discount: '', price: 25 },
+    { img: img2, title: 'Style', discount: '', price: 290 },
     { img: img3, title: 'InstaLocs (Custom)', discount: '', price: 450 },
 ];
 class Content extends Component {

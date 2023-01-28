@@ -24,7 +24,7 @@ const shopgridpost = [
     { img: img2, title: 'Perimeter Fix', discount: '', price: 55 },
     { img: img3, title: 'Single Removal', discount: '', price: 65 },
 
-    { img: img1, title: 'Custom Rate', discount: '', price: 00 },
+    { img: img1, title: 'Custom Rate', discount: '', price: 10 },
     { img: img2, title: 'Passion Twist', discount: '', price: 300 },
     { img: img3, title: 'Invisible Locs', discount: '', price: 275 },
 ];

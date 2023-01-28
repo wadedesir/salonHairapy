@@ -40,6 +40,9 @@ class Banner extends Component {
                             <li>
                                 <Link to="#"> <i className="fab fa-twitter" /> Twitter </Link>
                             </li>
+                            <li>
+                                <Link to="#"> <i className="fab fa-tiktok" /> tiktok </Link>
+                            </li>
                         </ul>
                     </div>
                 </ReactWOW>
@@ -54,7 +57,7 @@ class Banner extends Component {
                         <div className="col-lg-6 col-md-6">
                             <div className="banner-content">
                                 <ReactWOW animation='fadeInDown' data-delay=".3s">
-                                    <span className="promo-tag" >Jewelry Design With Love</span>
+                                    <span className="promo-tag" >Where Hair Meets Therapy</span>
                                 </ReactWOW>
                                 <ReactWOW animation='fadeInLeft' data-delay=".5s">
                                     <h1 className="title">Welcome To <br />Salon Hairapy</h1>
