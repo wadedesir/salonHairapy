@@ -31,7 +31,7 @@ class Newsletter extends Component {
                     <Modal.Body>
                         <div className="modal-inner">
                             <h3 className="title">Newsletter</h3>
-                            <p>Subscribe to our newsletter to recieve exclusive offers</p>
+                            <p>Subscribe to our newsletter for 10% on your first appointment! Bring any new custumer for 5% off in your next appointment!</p>
                             <form>
                                 <input type="email" placeholder="Email Address" name="email" />
                                 <button type="submit" className="main-btn btn-filled" name="button">Subscribe</button>
