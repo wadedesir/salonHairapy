@@ -7,7 +7,7 @@ import img3 from '../../../assets/img/shop/03.jpg';
 import img4 from '../../../assets/img/shop/04.jpg';
 
 const latestposts = [
-  { img: img1, title: 'Ankle Bracelet', price: '$390' },
+  { img: img1, title: 'Show', price: '$390' },
   { img: img2, title: 'Stud Earrings', price: '$480' },
   { img: img3, title: 'Crumpled Ring', price: '$290' },
   { img: img4, title: 'Moon Necklace', price: '$390' },
