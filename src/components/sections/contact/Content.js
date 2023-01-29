@@ -3,6 +3,7 @@ import Contacthelper from '../../../helper/Contacthelper';
 import ReCAPTCHA from "react-google-recaptcha";
 import { Alert } from 'react-bootstrap';
 import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
+import Stylist from '../../../assets/img/author.png'
 
 class Content extends Contacthelper {
     render() {
@@ -86,8 +87,45 @@ class Content extends Contacthelper {
                                 </div>
                                 <div className="col-md-6">
                                     <div className="input-group mb-30">
-                                        <span className="icon"><i className="far fa-book" /></span>
-                                        <input type="date" placeholder="Select Subject" name="subject" value={this.state.subject} onChange={this.onSubjectChange} required />
+                                        {/* <span className="icon"><i className="far fa-book" /></span> */}
+                                        <input style={{ colorScheme: 'dark' }} type="date" placeholder="Select Subject" name="subject" value={this.state.subject} onChange={this.onSubjectChange} required />
+                                    </div>
+                                </div>
+                                <div className='col-12'>
+                                    <div className="input-group mb-30">
+                                        {/* <span className="icon"><i className="far fa-phone" /></span> */}
+                                        <input type="text" placeholder="Enter Service" name="phone" value={this.state.service} onChange={this.onServiceChange} required />
+                                    </div>
+                                </div>
+                                <div className='col-12' >
+                                    <div className='text-center'>
+                                        <h4 style={{ color: '#FCD462' }}>Choose Your Stylist<h6 style={{ color: '#FCD462' }}>(if you have a preference!)</h6></h4>
+                                    </div>
+                                    <div className="input-group mb-30 mt-30 " style={{ display: 'flex', justifyContent: 'center' }} >
+                                        <div className="flex flex-col justify-center items-center" style={stylistBlock}>
+                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='stylist' name='stylist' />
+                                            <img className="mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
+                                            <h4 style={{ color: '#FCD462' }} className='text-center'>KATHY</h4>
+                                            <p className='text-center'>(specializes in all natural hair health and protective styles, extensions and colors)</p>
+                                        </div>
+                                        <div className="flex flex-col justify-center items-center" style={stylistBlock}>
+                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='stylist' name='stylist' />
+                                            <img className="mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
+                                            <h4 style={{ color: '#FCD462' }} className='text-center'>CASANDRA</h4>
+                                            <p className='text-center'>(specializes in sew-ins, wigs, colors and chemical treatments)</p>
+                                        </div>
+                                        <div className="flex flex-col justify-center items-center" style={stylistBlock}>
+                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='stylist' name='stylist' />
+                                            <img className="mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
+                                            <h4 style={{ color: '#FCD462' }} className='text-center'>MELISSA</h4>
+                                            <p className='text-center'>(specializes in natural braids and twists, locs and kids styles)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-12">
+                                    <div className="input-group textarea mb-30">
+                                        <span className="icon"><i className="far fa-pen" /></span>
+                                        <input type="text" placeholder="Please provide any other DATE and TIME options that may work in case your first choice is unavailable..." name="message" value={this.state.message} onChange={this.onMessageChange} required />
                                     </div>
                                 </div>
                                 <div className="col-12">
@@ -121,4 +159,10 @@ class Content extends Contacthelper {
     }
 }
 
+const stylistBlock = {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    width: '30%'
+}
 export default Content;

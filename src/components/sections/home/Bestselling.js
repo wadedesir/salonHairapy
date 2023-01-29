@@ -9,7 +9,7 @@ import img3 from '../../../assets/img/shop/03.jpg';
 import img4 from '../../../assets/img/shop/04.jpg';
 
 const shopposts = [
-    { img: img1, discount: 15, title: 'Ankle Bracelet', price: 390 },
+    { img: img1, discount: 15, title: 'Beauty', price: 390 },
     { img: img2, discount: '', title: 'Stud Earrings', price: 290 },
     { img: img3, discount: 10, title: 'Crumpled Ring', price: 450 },
     { img: img4, discount: 25, title: 'Moon Necklace', price: 500 },
@@ -56,7 +56,7 @@ class Bestselling extends Component {
                                 </div>
                                 <p className="pr-50">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, aliquip ex ea commodo consequat you have to understand this.
-          </p>
+                                </p>
                                 <Link to="/shop-left" className="main-btn btn-filled mt-40">Shop now</Link>
                             </div>
                         </div>
