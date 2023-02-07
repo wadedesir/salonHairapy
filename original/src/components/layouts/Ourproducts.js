@@ -8,7 +8,7 @@ import img4 from '../../assets/img/shop/04.jpg';
 
 const featureposts = [
     { img: img1,  discount: 15, title: 'Shower Sets', price: 390},
-    { img: img2, discount: '', title: 'Morning Sets', price: 290},
+    { img: img2, discount: 5, title: 'Morning Sets', price: 290},
     { img: img3,  discount: 10, title: 'Night Sets', price: 450},
     { img: img4,  discount: 25, title: 'Beauty Sets', price: 500},
 ];

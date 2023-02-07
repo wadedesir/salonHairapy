@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 
 const categoryposts = [
-    { icon: 'flaticon-bracelet', title: 'Educational', numberofproduct: '7' },
-    { icon: 'flaticon-ring', title: 'Weddings & Events', numberofproduct: '0' },
-    { icon: 'flaticon-necklace', title: 'what else', numberofproduct: '18' },
-    { icon: 'flaticon-earrings', title: 'again', numberofproduct: '23' },
+    { icon: 'flaticon-presentation', title: 'Demo', numberofproduct: '7' },
+    { icon: 'flaticon-dance', title: 'Private Event', numberofproduct: '0' },
+    { icon: 'flaticon-ceremony', title: 'Wedding', numberofproduct: '18' },
+    { icon: 'flaticon-beauty', title: 'Fashion Shows', numberofproduct: '23' },
 ];
 
 class Category extends Component {

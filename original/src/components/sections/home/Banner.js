@@ -40,6 +40,12 @@ class Banner extends Component {
                             <li>
                                 <Link to="#"> <i className="fab fa-twitter" /> Twitter </Link>
                             </li>
+                            <li>
+                                <Link to="#"> <i className="fab fa-tiktok" /> Tiktok </Link>
+                            </li>
+                            <li>
+                                <Link to="#"> <i className="fab fa-yelp" /> Yelp </Link>
+                            </li>
                         </ul>
                     </div>
                 </ReactWOW>

@@ -37,8 +37,8 @@ class Footertwo extends Component {
                                         <div>
                                             <h4 className="widget-title">New Collections.</h4>
                                             <ul>
-                                                <li><Link to="#">Diamond Ring</Link></li>
-                                                <li><Link to="#">Gold Bracelet</Link></li>
+                                                <li><Link to="#">Locs</Link></li>
+                                                <li><Link to="#"> Beauty</Link></li>
                                                 <li><Link to="#">Big Necklace </Link></li>
                                                 <li><Link to="#">Silver Bracelet</Link></li>
                                                 <li><Link to="#">Gold Earring</Link></li>

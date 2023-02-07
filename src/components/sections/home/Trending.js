@@ -8,10 +8,10 @@ import img3 from '../../../assets/img/room-suite/03.jpg'
 import Productslider from './Productslider';
 
 const trendingposts = [
-    { img: img1, title: 'Wedding Ring', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
-    { img: img2, title: 'Gold Neckless', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
-    { img: img3, title: 'Barry Gold Bangle', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
-    { img: img1, title: 'Gold Earring', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
+    { img: img1, title: 'Locs', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
+    { img: img2, title: 'Cut and Trims', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
+    { img: img3, title: 'Braids', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
+    { img: img1, title: 'Press', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
 ];
 
 class Trending extends Component {
