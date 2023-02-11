@@ -82,10 +82,10 @@ class Header extends Component {
                                 <p className="welcome-text">Need a Gift Card For a Friend or Loved One? Click Here to Grab One!</p>
                                 <ul className="header-top-info">
                                     <li>
-                                        <i className="fal fa-Clock"> </i> Mon - Sat 9.00 - 18.00
+                                        <i className="fal fa-Clock"> </i> Wed - Fri 9.30 AM - 7.00 PM
                                     </li>
                                     <li>
-                                        <i className="fal fa-Clock"> </i> Mon - Sat 9.00 - 18.00
+                                        <i className="fal fa-Clock"> </i> Sat 9.30 AM - 4.00 PM
                                     </li>
                                 </ul>
                             </div>
@@ -270,14 +270,14 @@ class Header extends Component {
                                                                                                                 <Link to="/items-services/twist-naturals">Twist/Naturals</Link>
                                                                                                             </li>
                                                                                                             <li className="menu-item">
-                                                                                                                <Link to="/items-services/wash-treatment">Wash/Treatment</Link>
+                                                                                                                <Link to="/items-services/wash-treatments">Wash/Treatments</Link>
                                                                                                             </li>
                                                                                                             <li className="menu-item">
                                                                                                                 <Link to="/items-services/weaves">Weaves</Link>
                                                                                                             </li>
-                                                                                                            <li className="menu-item">
+                                                                                                            {/* <li className="menu-item">
                                                                                                                 <Link to="/items-services/kids-corner">Kids Corner</Link>
-                                                                                                            </li>
+                                                                                                            </li> */}
                                                                                                         </ul>
                                                                                                     </div>
                                                                                                     {/* <div className="col-md-6 menu-item-has-children">
@@ -568,7 +568,7 @@ class Header extends Component {
                                                                 About Us
                                                             </Link>
                                                             <ul className="sub-menu">
-                                                                <li className="menu-item"> <Link to="/blog-grid-sidebar">Blog</Link>
+                                                                <li className="menu-item"> <Link to="/videos">Videos</Link>
                                                                 </li>
                                                                 <li className="menu-item"> <Link to="/blog-detail">Teams</Link>
                                                                 </li>
@@ -593,7 +593,7 @@ class Header extends Component {
                                                                     <Link to="/account">Account</Link>
                                                                 </li> */}
                                                                 <li className="menu-item">
-                                                                    <Link to="/gallery">Gallery</Link>
+                                                                    <Link to="/gallery">Gallery 1</Link>
                                                                 </li>
                                                                 <li className="menu-item">
                                                                     <Link to="/gallery-two">Gallery 2</Link>
@@ -668,9 +668,9 @@ class Header extends Component {
                                         </div>
                                     </div> */}
                                     {/* Off canvas Toggle */}
-                                    <div className="toggle">
+                                    {/* <div className="toggle">
                                         <Link to="#" id="offCanvasBtn" onClick={this.addClass}> <i className="fal fa-bars" /></Link>
-                                    </div>
+                                    </div> */}
                                     {/* <div className="toggle dropdown-btn">
                                         <span className="sigma-notification">0</span>
                                         <Link to="#" onClick={this.toggleCartm}><i className="fal fa-shopping-bag" /></Link>

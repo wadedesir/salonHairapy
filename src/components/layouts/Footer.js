@@ -67,19 +67,19 @@ class Footer extends Component {
                                         </div>
                                         <ul className="ft-social-media">
                                             <li>
-                                                <Link to="#">
-                                                    <i className="fab fa-facebook-f" />
-                                                </Link>
+                                                <Link to="https://www.facebook.com/SalonHairapyMalden"> <i className="fab fa-facebook" /> </Link>
                                             </li>
                                             <li>
-                                                <Link to="#">
-                                                    <i className="fab fa-instagram" />
-                                                </Link>
+                                                <Link to="https://www.instagram.com/salonhairapymalden/?hl=en"> <i className="fab fa-instagram" /> </Link>
                                             </li>
                                             <li>
-                                                <Link to="#">
-                                                    <i className="fab fa-twitter" />
-                                                </Link>
+                                                <Link to="https://twitter.com/SalonHairapy"> <i className="fab fa-twitter" />  </Link>
+                                            </li>
+                                            <li>
+                                                <Link to="https://www.tiktok.com/@salonhairapy"> <i className="fab fa-tiktok" />  </Link>
+                                            </li>
+                                            <li>
+                                                <Link to="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-yelp" /> </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -137,7 +137,7 @@ class Footer extends Component {
                                         <ul>
                                             <li>
                                                 <i className="flaticon-phone" />
-                                                <Link to="tel:"><span>Phone Number</span> +987 876 765 76 577</Link>
+                                                <Link to="tel:"><span>Phone Number</span> (781) 480-3629</Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-message" />
@@ -163,7 +163,7 @@ class Footer extends Component {
                                         <ul>
                                             <li>
                                                 <i className="flaticon-location-pin" />
-                                                <Link to="#"><span>Office Address</span> 14/A, Miranda City, NYC</Link>
+                                                <Link to="#"><span>Office Address</span> 902 SALEM ST MALDEN, MA 02148</Link>
                                             </li>
                                         </ul>
                                     </div>

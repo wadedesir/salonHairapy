@@ -32,7 +32,7 @@ class Content extends Component {
             <section className="blog-section latest-news pt-120 pb-120">
                 <div className="section-fw">
                     <div className="row column-reverse">
-                        <div className="col-lg-8">
+                        <div className="col-lg-12">
                             <div className="row">
                                 {bloggridposts.map((item, i) => (
                                     <div key={i} className="col-md-6">
@@ -56,9 +56,9 @@ class Content extends Component {
                             </div>
                         </div>
                         {/* Blog Sidebar */}
-                        <div className="col-lg-4">
+                        {/* <div className="col-lg-4">
                             <Sidebar />
-                        </div>
+                        </div> */}
                     </div>
                     <div className="pagination-wrap mt-50">
                         <Pagination />

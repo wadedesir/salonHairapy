@@ -32,19 +32,19 @@ class Banner extends Component {
                     <div className="d-none d-md-block vertical-text">
                         <ul>
                             <li>
-                                <Link to="#"> <i className="fab fa-facebook" /> Facebook </Link>
+                                <Link to="https://www.facebook.com/SalonHairapyMalden"> <i className="fab fa-facebook" /> Facebook </Link>
                             </li>
                             <li>
-                                <Link to="#"> <i className="fab fa-instagram" /> Instagram </Link>
+                                <Link to="https://www.instagram.com/salonhairapymalden/?hl=en"> <i className="fab fa-instagram" /> Instagram </Link>
                             </li>
                             <li>
-                                <Link to="#"> <i className="fab fa-twitter" /> Twitter </Link>
+                                <Link to="https://twitter.com/SalonHairapy"> <i className="fab fa-twitter" /> Twitter </Link>
                             </li>
                             <li>
-                                <Link to="#"> <i className="fab fa-tiktok" /> tiktok </Link>
+                                <Link to="https://www.tiktok.com/@salonhairapy"> <i className="fab fa-tiktok" /> tiktok </Link>
                             </li>
                             <li>
-                                <Link to="#"> <i className="fab fa-yelp" /> yelp</Link>
+                                <Link to="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-yelp" /> yelp</Link>
                             </li>
                         </ul>
                     </div>

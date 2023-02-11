@@ -7,7 +7,7 @@ import Footer from '../layouts/Footerthree';
 // import Content from '../sections/shopleft/Content';
 import * as Content from '../sections/products_services'
 import { useParams } from 'react-router-dom';
-
+import kstar from '../../assets/img/kstar.JPG'
 
 
 const Shopleft = () => {
@@ -37,12 +37,12 @@ const Shopleft = () => {
                 return <Content.Presses />
             case 'weaves':
                 return <Content.Weaves />
-            case 'wash-treatment':
+            case 'wash-treatments':
                 return <Content.Wash />
             case 'relaxers':
                 return <Content.Relaxers />
-            case 'kids-corner':
-                return <Content.KidsCorner />
+            // case 'kids-corner':
+            //     return <Content.KidsCorner />
 
 
         }
@@ -68,7 +68,8 @@ const Shopleft = () => {
             <Breadcrumb breadcrumb={{ pagename: titleCase(params.id) }} />
             {getContent()}
             {/* <Instafeeds /> */}
-            <Footer />
+            {params.id == 'kstar' ? <Footer contactCard={kstar} /> : <Footer />}
+
         </Fragment>
     );
 

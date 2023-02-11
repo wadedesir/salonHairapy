@@ -5,113 +5,119 @@ const navigationmenu = [
     {
         id: 1,
         linkText: 'Home',
-        child: true,
-        submenu: [
-            {
-                id: 11,
-                link: '/',
-                linkText: 'Home 1'
-            },
-            {
-                id: 12,
-                link: '/home-two',
-                linkText: 'Home 2'
-            },
-            {
-                id: 13,
-                link: '/home-three',
-                linkText: 'Home 3'
-            },
-            {
-                id: 14,
-                link: '/home-four',
-                linkText: 'Home 4'
-            },
-        ]
+        // child: true,
+        // submenu: [
+        //     {
+        //         id: 11,
+        //         link: '/',
+        //         linkText: 'Home 1'
+        //     },
+        //     {
+        //         id: 12,
+        //         link: '/home-two',
+        //         linkText: 'Home 2'
+        //     },
+        //     {
+        //         id: 13,
+        //         link: '/home-three',
+        //         linkText: 'Home 3'
+        //     },
+        //     {
+        //         id: 14,
+        //         link: '/home-four',
+        //         linkText: 'Home 4'
+        //     },
+        // ]
     },
     {
         id: 2,
-        linkText: 'Shop',
+        linkText: 'Services',
         child: true,
         submenu: [
             {
                 id: 21,
                 link: '/shop-left',
-                linkText: 'Shop Left Sidebar'
+                linkText: 'Beauty'
             },
             {
                 id: 22,
-                link: '/shop-left-two',
-                linkText: 'Shop Left Sidebar v2'
+                link: '/braid-extensions',
+                linkText: 'Braid Extensions'
             },
             {
                 id: 23,
-                link: '/shop-right',
-                linkText: 'Shop Right Sidebar'
+                link: '/items-services/braid-naturals',
+                linkText: 'Braid Naturals'
             },
             {
                 id: 24,
-                link: '/shop-right-two',
-                linkText: 'Shop Right Sidebar v2'
+                link: '/items-services/colors',
+                linkText: 'Colors'
             },
             {
                 id: 25,
-                link: '/shop-detail',
-                linkText: 'Product Details'
+                link: '/items-services/cuts-and-trims',
+                linkText: 'Locs'
             },
             {
                 id: 26,
-                link: '/account',
-                linkText: 'My Account'
+                link: '/items-services/presses',
+                linkText: 'Presses'
             },
             {
                 id: 27,
-                link: '/checkout',
-                linkText: 'Checkout'
+                link: '/items-services/relaxers',
+                linkText: 'Relaxers'
             },
             {
                 id: 28,
-                link: '/wishlist',
-                linkText: 'Wishlist'
+                link: '/items-services/sets',
+                linkText: 'Sets'
             },
             {
                 id: 29,
-                link: '/cart',
-                linkText: 'Cart'
+                link: '/items-services/twist-naturals',
+                linkText: 'Twist/Naturals'
             },
             {
                 id: 210,
-                link: '/login',
-                linkText: 'Login'
+                link: '/items-services/wash-treatments',
+                linkText: 'Wash/Treatments'
             },
+            {
+                id: 211,
+                link: '/items-services/weaves',
+                linkText: 'Weaves'
+            },
+
         ]
     },
     {
         id: 3,
-        linkText: 'Blog',
-        child: true,
-        submenu: [
-            {
-                id: 31,
-                link: '/blog-grid-sidebar',
-                linkText: 'Blog Grid Sidebar'
-            },
-            {
-                id: 32,
-                link: '/blog-detail',
-                linkText: 'Blog Details'
-            },
-            {
-                id: 33,
-                link: '/blog-grid',
-                linkText: 'Blog Grid'
-            },
-            {
-                id: 34,
-                link: '/blog-list',
-                linkText: 'Blog List'
-            },
-        ]
+        linkText: 'KStar Essentials',
+        // child: true,
+        // submenu: [
+        //     {
+        //         id: 31,
+        //         link: '/blog-grid-sidebar',
+        //         linkText: 'Blog Grid Sidebar'
+        //     },
+        //     {
+        //         id: 32,
+        //         link: '/blog-detail',
+        //         linkText: 'Blog Details'
+        //     },
+        //     {
+        //         id: 33,
+        //         link: '/blog-grid',
+        //         linkText: 'Blog Grid'
+        //     },
+        //     {
+        //         id: 34,
+        //         link: '/blog-list',
+        //         linkText: 'Blog List'
+        //     },
+        // ]
     },
     {
         id: 4,
@@ -120,38 +126,23 @@ const navigationmenu = [
         submenu: [
             {
                 id: 41,
-                link: '/classification',
-                linkText: 'Classification'
+                link: '/blog',
+                linkText: 'Blog'
             },
             {
                 id: 42,
-                link: '/account',
-                linkText: 'Account'
+                link: '/teams',
+                linkText: 'Teams'
             },
             {
                 id: 43,
                 link: '/gallery',
-                linkText: 'Gallery'
+                linkText: 'Gallery 1'
             },
             {
                 id: 44,
-                link: '/team',
-                linkText: 'Team'
-            },
-            {
-                id: 45,
-                link: '/error',
-                linkText: 'Error 404'
-            },
-            {
-                id: 46,
-                link: '/coming-soon',
-                linkText: 'Coming Soon'
-            },
-            {
-                id: 47,
-                link: '/typography',
-                linkText: 'Typography'
+                link: '/gallery-two',
+                linkText: 'Gallery 2'
             },
         ]
     },
@@ -162,19 +153,19 @@ const navigationmenu = [
     },
     {
         id: 6,
-        linkText: 'Contact',
-        link: '/contact'
+        linkText: 'Book Appointment',
+        link: '/book-appointment'
     },
     {
         id: 7,
-        linkText: 'Diamond',
+        linkText: 'Shop Luxury Hair',
         link: '/shop-left'
     },
-    {
-        id: 8,
-        linkText: 'Accessories',
-        link: '/shop-left'
-    },
+    // {
+    //     id: 8,
+    //     linkText: 'Accessories',
+    //     link: '/shop-left'
+    // },
 
 ]
 class Mobilemenu extends Component {

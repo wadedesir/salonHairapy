@@ -5,6 +5,7 @@ import Breadcrumb from '../layouts/Breadcrumbs';
 import Instafeeds from '../layouts/Instafeeds';
 import Footer from '../layouts/Footerthree';
 import Content from '../sections/contact/Content';
+import contactCard from '../../assets/img/contact-card.png'
 
 class Contact extends Component {
     render() {
@@ -21,7 +22,7 @@ class Contact extends Component {
                 <Breadcrumb breadcrumb={{ pagename: 'Contact Us' }} />
                 <Content />
                 {/* <Instafeeds/> */}
-                <Footer />
+                <Footer contactCard={contactCard} />
             </Fragment>
         );
     }

@@ -11,17 +11,17 @@ class Blogdetail extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Laramiss | Blog Detail</title>
+                    <title>Salon Hairapy | Team</title>
                     <meta
                         name="description"
                         content="#"
                     />
                 </MetaTags>
-                <Header/>
-                <Breadcrumb breadcrumb={{pagename:'Blog Detail'}}/>
-                <Content/>
-                <Instafeeds/>
-                <Footer/>
+                <Header />
+                <Breadcrumb breadcrumb={{ pagename: 'Team' }} />
+                <Content />
+                <Instafeeds />
+                <Footer />
             </Fragment>
         );
     }
