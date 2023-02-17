@@ -7,10 +7,10 @@ import Stylist from '../../../assets/img/author.png'
 
 class Content extends Contacthelper {
     render() {
-        const Map = ReactMapboxGl({
-            accessToken:
-                'pk.eyJ1IjoiYWJlZHNoIiwiYSI6ImNrNnRyZ3d4aDAyMzkzZXBoc3RsYnM0aGwifQ.yhr3W_OOI6xXElmSY8cyPg'
-        });
+        // const Map = ReactMapboxGl({
+        //     accessToken:
+        //         'pk.eyJ1IjoiYWJlZHNoIiwiYSI6ImNrNnRyZ3d4aDAyMzkzZXBoc3RsYnM0aGwifQ.yhr3W_OOI6xXElmSY8cyPg'
+        // });
         return (
             <section className="contact-part pt-115 pb-115">
                 <div className="container">
@@ -73,12 +73,12 @@ class Content extends Contacthelper {
                                         <input type="text" placeholder="Your full name" name="name" value={this.state.name} onChange={this.onNameChange} required />
                                     </div>
                                 </div>
-                                <div className="col-md-6">
+                                {/* <div className="col-md-6">
                                     <div className="input-group mb-30">
                                         <span className="icon"><i className="far fa-envelope" /></span>
                                         <input type="email" placeholder="Enter email address" name="email" value={this.state.email} onChange={this.onEmailChange} required />
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="col-md-6">
                                     <div className="input-group mb-30">
                                         <span className="icon"><i className="far fa-phone" /></span>
@@ -88,58 +88,68 @@ class Content extends Contacthelper {
                                 <div className="col-md-6">
                                     <div className="input-group mb-30">
                                         {/* <span className="icon"><i className="far fa-book" /></span> */}
-                                        <input style={{ colorScheme: 'dark' }} type="date" placeholder="Select Subject" name="subject" value={this.state.subject} onChange={this.onSubjectChange} required />
+                                        <input style={{ colorScheme: 'dark' }} type="date" name="date" value={this.state.date} onChange={this.onDateChange} required />
+                                    </div>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="input-group mb-30">
+                                        {/* <span className="icon"><i className="far fa-clock" /></span> */}
+                                        <input style={{ colorScheme: 'dark' }} type="time" name="time" value={this.state.time} onChange={this.onTimeChange} required />
                                     </div>
                                 </div>
                                 <div className='col-12'>
                                     <div className="input-group mb-30">
                                         {/* <span className="icon"><i className="far fa-phone" /></span> */}
-                                        <input type="text" placeholder="Enter Service" name="phone" value={this.state.service} onChange={this.onServiceChange} required />
+                                        <input type="text" placeholder="Enter Service" name="service" value={this.state.service} onChange={this.onServiceChange} required />
                                     </div>
                                 </div>
                                 <div className='col-12' >
                                     <div className='text-center'>
                                         <h4 style={{ color: '#FCD462' }}>Choose Your Stylist<h6 style={{ color: '#FCD462' }}>(if you have a preference!)</h6></h4>
                                     </div>
-                                    <div className="input-group mb-30 mt-30 " style={{ display: 'flex', justifyContent: 'center' }} >
-                                        <div className="flex flex-col justify-center items-center" style={stylistBlock}>
-                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='stylist' name='stylist' />
-                                            <img className="mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
+                                    {/* <div>
+
+                                    </div> */}
+                                    <div className="col-12 input-group mb-30 mt-30 d-flex flex-column flex-md-row justify-content-around"  >
+                                        <div className="">
+                                            <img className="d-block mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
                                             <h4 style={{ color: '#FCD462' }} className='text-center'>KATHY</h4>
-                                            <p className='text-center'>(specializes in all natural hair health and protective styles, extensions and colors)</p>
+                                            <p className='text-center my-2'>(specializes in all natural hair health and protective styles, extensions and colors)</p>
+                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='Kathy' name='stylist' onClick={this.onStylistChange} />
                                         </div>
-                                        <div className="flex flex-col justify-center items-center" style={stylistBlock}>
-                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='stylist' name='stylist' />
-                                            <img className="mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
-                                            <h4 style={{ color: '#FCD462' }} className='text-center'>CASANDRA</h4>
+                                        <div className="">
+                                            <img className="d-block mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
+                                            <h4 style={{ color: '#FCD462' }} className='text-center my-2'>CASANDRA</h4>
                                             <p className='text-center'>(specializes in sew-ins, wigs, colors and chemical treatments)</p>
+                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='Casandra' name='stylist' onClick={this.onStylistChange} />
                                         </div>
-                                        <div className="flex flex-col justify-center items-center" style={stylistBlock}>
-                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='stylist' name='stylist' />
-                                            <img className="mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
-                                            <h4 style={{ color: '#FCD462' }} className='text-center'>MELISSA</h4>
+                                        <div className="">
+                                            <img className="d-block mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
+                                            <h4 style={{ color: '#FCD462' }} className='text-center my-2'>MELISSA</h4>
                                             <p className='text-center'>(specializes in natural braids and twists, locs and kids styles)</p>
+                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='Melissa' name='stylist' onClick={this.onStylistChange} />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-12">
+                                    <label style={{ color: '#FCD462' }} for="message">Please provide any other DATE and TIME options that may work in case your first choice is unavailable...</label>
                                     <div className="input-group textarea mb-30">
                                         <span className="icon"><i className="far fa-pen" /></span>
-                                        <input type="text" placeholder="Please provide any other DATE and TIME options that may work in case your first choice is unavailable..." name="message" value={this.state.message} onChange={this.onMessageChange} required />
+                                        <input type="text" placeholder="Enter Times..." name="message" value={this.state.extraTimes} onChange={this.onExtraTimesChange} required />
                                     </div>
                                 </div>
                                 <div className="col-12">
                                     <div className="input-group textarea mb-30">
                                         <span className="icon"><i className="far fa-pen" /></span>
-                                        <textarea placeholder="Enter messages" name="message" value={this.state.message} onChange={this.onMessageChange} required />
+                                        <textarea placeholder="Message to stylist..." name="message" value={this.state.message} onChange={this.onMessageChange} required />
                                     </div>
                                 </div>
                                 <div className="col-12 text-center">
-                                    <ReCAPTCHA
+                                    {/* <ReCAPTCHA
                                         sitekey="6LdxUhMaAAAAAIrQt-_6Gz7F_58S4FlPWaxOh5ib"
                                         onChange={this.reCaptchaLoaded.bind(this)}
                                         size="invisible"
-                                    />
+                                    /> */}
                                     <button type="submit" className="main-btn btn-filled">Get Free Quote</button>
                                     {/* Form Messages */}
                                     <Alert variant="success" className="d-none mt-3 mb-0" id="server_response_success">
@@ -153,16 +163,16 @@ class Content extends Contacthelper {
                             </div>
                         </form>
                     </div>
-                </div>
-            </section>
+                </div >
+            </section >
         );
     }
 }
 
 const stylistBlock = {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
+    // display: 'flex',
+    // flexDirection: 'column',
+    // justifyContent: 'center',
     width: '30%'
 }
 export default Content;
