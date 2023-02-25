@@ -41,10 +41,10 @@ class Banner extends Component {
                                 <Link to="#"> <i className="fab fa-twitter" /> Twitter </Link>
                             </li>
                             <li>
-                                <Link to="#"> <i className="fab fa-tiktok" /> tiktok </Link>
+                                <Link to="#"> <i className="fab fa-tiktok" /> Tiktok </Link>
                             </li>
                             <li>
-                                <Link to="#"> <i className="fab fa-yelp" /> yelp</Link>
+                                <Link to="#"> <i className="fab fa-yelp" /> Yelp</Link>
                             </li>
                         </ul>
                     </div>
