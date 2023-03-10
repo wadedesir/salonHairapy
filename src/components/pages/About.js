@@ -17,11 +17,11 @@ class About extends Component {
                         content="#"
                     />
                 </MetaTags>
-                <Header/>
-                <Breadcrumb breadcrumb={{pagename:'About Us'}} />
-                <Content/>
-                <Instafeeds/>
-                <Footer/>
+                <Header />
+                <Breadcrumb breadcrumb={{ pagename: 'About Us' }} />
+                <Content />
+                <Instafeeds />
+                <Footer />
             </Fragment>
         );
     }

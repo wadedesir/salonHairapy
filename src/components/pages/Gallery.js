@@ -17,11 +17,11 @@ class Gallery extends Component {
                         content="#"
                     />
                 </MetaTags>
-                <Header/>
-                <Breadcrumb breadcrumb={{pagename:'Gallery'}}/>
-                <Content/>
-                <Instafeeds/>
-                <Footer/>
+                <Header />
+                <Breadcrumb breadcrumb={{ pagename: 'Gallery' }} />
+                <Content />
+                {/* <Instafeeds/> */}
+                <Footer />
             </Fragment>
         );
     }

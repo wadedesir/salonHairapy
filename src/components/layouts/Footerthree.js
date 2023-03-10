@@ -36,12 +36,15 @@ const Footerthree = ({ contactCard }) => {
                                 <p className="copyright-text">copyright by@Yourwebsite</p>
                             </div>
                             <div className="col-md-7 order-1 order-md-2">
-                                <div className="social-links">
-                                    <Link to="#"><i className="fab fa-facebook-f" /></Link>
-                                    <Link to="#"><i className="fab fa-twitter" /></Link>
-                                    <Link to="#"><i className="fab fa-behance" /></Link>
-                                    <Link to="#"><i className="fab fa-linkedin" /></Link>
-                                    <Link to="#"><i className="fab fa-youtube" /></Link>
+                                <div className="social-links ">
+                                    <a href="https://twitter.com/SalonHairapy"> <i className="fab fa-twitter" /> </a>
+
+                                    <a href="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-yelp" /> </a>
+
+                                    <a href="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-linkedin" /> </a>
+
+                                    <a href="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-youtube" /> </a>
+
                                 </div>
                             </div>
                         </div>

@@ -4,18 +4,19 @@ import Sidebar from '../../layouts/Blogsidebar';
 
 import authorimg from "../../../assets/img/blog-details/author.jpg";
 
-import commentuser1 from '../../../assets/img/blog-details/avatar-1.jpg';
-import commentuser2 from '../../../assets/img/blog-details/avatar-2.jpg';
-import commentuser3 from '../../../assets/img/blog-details/avatar-3.jpg';
+// import commentuser1 from '../../../assets/img/blog-details/avatar-1.jpg';
+// import commentuser2 from '../../../assets/img/blog-details/avatar-2.jpg';
+// import commentuser3 from '../../../assets/img/blog-details/avatar-3.jpg';
 
-import blogimg from '../../../assets/img/blog-details/01.jpg';
-import blogauthor from '../../../assets/img/blog-details/02.jpg';
-import blogicon from '../../../assets/img/blog-details/icon.png';
+// import blogimg from '../../../assets/img/blog-details/01.jpg';
+// import blogauthor from '../../../assets/img/blog-details/02.jpg';
+// import blogicon from '../../../assets/img/blog-details/icon.png';
 
 
 import img1 from '../../../assets/img/blog-details/03.jpg';
 import img2 from '../../../assets/img/blog-details/04.jpg';
 
+import kathy from '../../../assets/img/custom/kathy.jpg'
 
 const relatedtags = [
     { tag: 'Rings' },
@@ -45,7 +46,7 @@ class Content extends Component {
                                 <div className="entry-footer">
                                     <div className="author-info-box mb-45">
                                         <div className="author-img">
-                                            <img src={authorimg} alt="" />
+                                            <img src={kathy} alt="" />
                                         </div>
                                         <div className="info-text">
                                             <span>Stylist</span>

@@ -6,7 +6,6 @@ import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
 import Stylist from '../../../assets/img/author.png';
 import Kathy from "../../../assets/img/custom/kathy.jpg";
 
-
 class Content extends Contacthelper {
     render() {
         // const Map = ReactMapboxGl({
@@ -17,6 +16,20 @@ class Content extends Contacthelper {
             <section className="contact-part pt-115 pb-115">
                 <div className="container">
                     {/* Contact Info */}
+                    <div className='col-12 d-flex justify-content-center'>
+                        <div className="col-md-7 order-1 order-md-2">
+                            <div className="social-links d-flex justify-content-center">
+                                <a className='contact-icons' href="https://twitter.com/SalonHairapy"> <i className="fab fa-twitter" /> </a>
+
+                                <a className='contact-icons' href="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-yelp" /> </a>
+
+                                <a className='contact-icons' href="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-linkedin" /> </a>
+
+                                <a className='contact-icons' href="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-youtube" /> </a>
+
+                            </div>
+                        </div>
+                    </div>
                     <div className="contact-info">
                         <div className="row justify-content-center">
                             <div className="col-lg-4 col-sm-6 col-10">
@@ -26,7 +39,7 @@ class Content extends Contacthelper {
                                     </div>
                                     <div className="desc">
                                         <h4>Office Address</h4>
-                                        <p>19/A, Cirikon City hall Tower New York, NYC</p>
+                                        <p>902 SALEM ST MALDEN, MA 02148</p>
                                     </div>
                                 </div>
                             </div>
@@ -37,7 +50,7 @@ class Content extends Contacthelper {
                                     </div>
                                     <div className="desc">
                                         <h4>Phone Number</h4>
-                                        <p>+ 97656 8675 7864 7 <br /> + 876 766 8675 765 6</p>
+                                        <p>+1 (781) 480-3629 <br /> +1 876 766 8</p>
                                     </div>
                                 </div>
                             </div>
