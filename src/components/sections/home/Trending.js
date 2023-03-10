@@ -1,4 +1,4 @@
-import React, { Component, useRef } from 'react';
+import React, { Component, useRef, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 
 import img1 from '../../../assets/img/room-suite/01.jpg'
@@ -19,7 +19,6 @@ import setsPresses from '../../../assets/img/prices/sets&presses.jpg'
 import washTreats from '../../../assets/img/prices/wash&treats.jpg'
 import naturalBraids from '../../../assets/img/prices/natural-braids.jpg'
 
-
 const trendingposts = [
     { img: img1, title: 'Locs', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
     { img: img2, title: 'Cut and Trims', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
@@ -28,14 +27,29 @@ const trendingposts = [
 ];
 
 const Trending = () => {
+    const priceRefUpper = useRef()
+    const priceRefLower = useRef()
+    const stylesRef = useRef()
+    let [toggleStyles, setToggleStyles] = useState(true);
 
-    const priceRef = useRef()
+    const [width, setWidth] = useState(window.innerWidth);
 
+    function handleWindowSizeChange() { //https://stackoverflow.com/questions/39435395/reactjs-how-to-determine-if-the-application-is-being-viewed-on-mobile-or-deskto
+        setWidth(window.innerWidth);
+    }
+    useEffect(() => {
+        window.addEventListener('resize', handleWindowSizeChange);
+        return () => {
+            window.removeEventListener('resize', handleWindowSizeChange);
+        }
+    }, []);
+
+    const isMobile = width <= 768;
 
     return (
-        <section className="pt-115 pb-115 bg-white">
-            <div className="container">
-                <div className="section-title text-center mb-30">
+        <section className="pt-115 pb-115 bg-white" ref={stylesRef}>
+            <div className="container" >
+                <div className="section-title text-center mb-30" >
                     {/* <div className="section-title-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xmlSpace="preserve">
                                 <path d="M369.853,250.251l-100-241C267.53,3.65,262.062,0,255.999,0s-11.531,3.65-13.854,9.251l-100,241    c-1.527,3.681-1.527,7.817,0,11.498l100,241c2.323,5.601,7.791,9.251,13.854,9.251s11.531-3.65,13.854-9.251l100-241    C371.381,258.068,371.381,253.932,369.853,250.251z M255.999,457.861L172.239,256l83.76-201.861L339.759,256L255.999,457.861z" fill="#ffffff" />
@@ -46,7 +60,7 @@ const Trending = () => {
                             </svg>
                         </div> */}
                     <span className="title-tag"> Check Out </span>
-                    <h2>Our Styles</h2>
+                    <h2  >Our Styles</h2>
                 </div>
                 {/* <div className="text-center mb-20">
                     <Link to="#">View more
@@ -74,8 +88,8 @@ const Trending = () => {
                         ))}
                     </div> */}
             </div>
-            <div className=''>
-                <div className='col-12 d-sm-flex flex-wrap'>
+            <div id="allStyles" className='' >
+                <div className='col-12 d-sm-flex flex-wrap' ref={priceRefUpper}>
                     <div className='col pt-3 col-sm-6 col-lg-3' >
                         <img src={braids} />
                     </div>
@@ -90,7 +104,7 @@ const Trending = () => {
                     </div>
                 </div>
 
-                <div className='col-12 d-sm-flex flex-wrap' style={priceStyles} ref={priceRef}>
+                <div className='col-12 d-sm-flex flex-wrap d-none' ref={priceRefLower}>
                     <div className='col pt-3 col-sm-6 col-lg-3' >
                         <img src={colorsRelaxers} />
                     </div>
@@ -108,18 +122,24 @@ const Trending = () => {
 
             </div>
             <div className="text-center mt-20">
-                <Link to="#" onClick={() => console.log('clicked')}>View more
-                    <i className="fal fa-arrow-right ml-2" />
+                <Link to="#" onClick={() => {
+                    if (toggleStyles) {
+                        priceRefLower.current.classList.remove('d-none')
+                        priceRefUpper.current.classList.add('d-none')
+
+                    } else {
+                        priceRefLower.current.classList.add('d-none')
+                        priceRefUpper.current.classList.remove('d-none')
+                    }
+
+                    if (isMobile) stylesRef.current.scrollIntoView()
+                    setToggleStyles(!toggleStyles)
+                }}>
+                    {toggleStyles ? <span>View More <i className="fal fa-arrow-right ml-2" /></span> : <span><i className="fal fa-arrow-left mr-2" /> Back</span>}
                 </Link>
             </div>
         </section >
     );
-
-}
-
-const priceStyles = {
-    // width: '20%',
-    display: 'none'
 
 }
 

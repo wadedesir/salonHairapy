@@ -1,6 +1,7 @@
 /*-----------------------------------------------------------------------------------
     CSS INDEX
     ===================
+    Custom
     Common
     Header
     -- Off canvas menu
@@ -42,8 +43,10 @@
     -- Back to top
 
 -----------------------------------------------------------------------------------*/
-
-
+/*=======  CUSTOM CSS  =======*/
+.d-none{
+    display: none !important;
+}
 /*=======  COMMON CSS  =======*/
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Prata:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;500;700&display=swap");

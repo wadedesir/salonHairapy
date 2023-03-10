@@ -3,7 +3,9 @@ import Contacthelper from '../../../helper/Contacthelper';
 import ReCAPTCHA from "react-google-recaptcha";
 import { Alert } from 'react-bootstrap';
 import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
-import Stylist from '../../../assets/img/author.png'
+import Stylist from '../../../assets/img/author.png';
+import Kathy from "../../../assets/img/custom/kathy.jpg";
+
 
 class Content extends Contacthelper {
     render() {
@@ -112,7 +114,7 @@ class Content extends Contacthelper {
                                     </div> */}
                                     <div className="col-12 input-group mb-30 mt-30 d-flex flex-column flex-md-row justify-content-around"  >
                                         <div className="">
-                                            <img className="d-block mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
+                                            <img className="d-block mx-auto mb-30" src={Kathy} alt="stylist" width='150' />
                                             <h4 style={{ color: '#FCD462' }} className='text-center'>KATHY</h4>
                                             <p className='text-center my-2'>(specializes in all natural hair health and protective styles, extensions and colors)</p>
                                             <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='Kathy' name='stylist' onClick={this.onStylistChange} />

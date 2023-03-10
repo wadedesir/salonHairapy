@@ -20,7 +20,7 @@ class Bloggridsidebar extends Component {
                 <Header />
                 <Breadcrumb breadcrumb={{ pagename: 'Videos' }} />
                 <Content />
-                <Instafeeds />
+                {/* <Instafeeds /> */}
                 <Footer />
             </Fragment>
         );

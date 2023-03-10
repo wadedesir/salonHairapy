@@ -44,25 +44,15 @@ class Footer extends Component {
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
-                                        <div className="h-100 d-flex align-items-center justify-content-end">
-                                            <select className="nice-select">
-                                                <option>English</option>
-                                                <option>Español</option>
-                                            </select>
-                                            <select className="nice-select">
-                                                <option>USD</option>
-                                                <option>GBP</option>
-                                                <option>INR</option>
-                                            </select>
-                                        </div>
+
                                     </div>
                                 </div>
                                 {/*====== Footer content ======*/}
-                                <div className="sigma-footer-box">
+                                {/* <div className="sigma-footer-box">
                                     <div className="sigma-footer-box-top">
                                         <div className="ft-logo">
                                             <Link to="/">
-                                                {/* <img src={logo} alt="Logo" /> */}
+                                                <img src={logo} alt="Logo" />
                                             </Link>
                                         </div>
                                         <ul className="ft-social-media">
@@ -112,9 +102,9 @@ class Footer extends Component {
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
-                            <div className="col-lg-4">
+                            {/* <div className="col-lg-4">
                                 <Map
                                     // eslint-disable-next-line react/style-prop-object
                                     style="mapbox://styles/mapbox/light-v10"
@@ -124,7 +114,7 @@ class Footer extends Component {
                                         <Feature coordinates={[-77.04, 38.907]} zoom={11.5} />
                                     </Layer>
                                 </Map>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -147,7 +137,7 @@ class Footer extends Component {
                                     </div>
                                 </div>
                                 <div className="col-lg-3">
-                                    <div className="sigma-footer-search">
+                                    {/* <div className="sigma-footer-search">
                                         <form>
                                             <div className="input-group">
                                                 <div className="input-group-prepend">
@@ -156,7 +146,7 @@ class Footer extends Component {
                                                 <input type="text" name="#" className="form-control" placeholder="Search..." />
                                             </div>
                                         </form>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div className="col-lg-3">
                                     <div className="sigma-footer-contact style-2">

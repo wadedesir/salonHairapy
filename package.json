@@ -1,8 +1,8 @@
 {
-  "name": "laramiss",
+  "name": "Salon Hairapy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://metropolitanhost.com/themes/themeforest/react/laramiss",
+  "homepage": "/home",
   "main": "lib/index",
   "types": "lib/index",
   "dependencies": {

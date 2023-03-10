@@ -58,7 +58,7 @@ const Shopleft = () => {
     return (
         <Fragment>
             <MetaTags>
-                <title>Laramiss | Shop Left</title>
+                <title>Salon Hairapy | Shop</title>
                 <meta
                     name="description"
                     content="#"
