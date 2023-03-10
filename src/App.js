@@ -48,7 +48,7 @@ function App() {
         <Route exact path="/account" component={Account} />
         <Route exact path="/blog-detail" component={Blogdetail} />
         <Route exact path="/blog-grid" component={Bloggrid} />
-        <Route exact path="/blog-grid-sidebar" component={Bloggridsidebar} />
+        <Route exact path="/videos" component={Bloggridsidebar} />
         <Route exact path="/blog-list" component={Bloglist} />
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/checkout" component={Checkout} />

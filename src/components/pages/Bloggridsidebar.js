@@ -11,17 +11,17 @@ class Bloggridsidebar extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Laramiss | Blog Grid</title>
+                    <title> Salon Hairapy | Videos</title>
                     <meta
                         name="description"
                         content="#"
                     />
                 </MetaTags>
-                <Header/>
-                <Breadcrumb breadcrumb={{pagename:'Blog Grid'}}/>
-                <Content/>
-                <Instafeeds/>
-                <Footer/>
+                <Header />
+                <Breadcrumb breadcrumb={{ pagename: 'Videos' }} />
+                <Content />
+                <Instafeeds />
+                <Footer />
             </Fragment>
         );
     }
