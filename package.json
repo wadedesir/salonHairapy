@@ -2,7 +2,7 @@
   "name": "Salon Hairapy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/home",
+  "homepage": "./",
   "main": "lib/index",
   "types": "lib/index",
   "dependencies": {
