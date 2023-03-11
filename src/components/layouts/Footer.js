@@ -131,7 +131,7 @@ class Footer extends Component {
                                             </li>
                                             <li>
                                                 <i className="flaticon-message" />
-                                                <Link to="mailto:"><span>Email Address</span> info@webmail.com</Link>
+                                                <Link to="mailto:"><span>Email Address</span> SalonHairapy4u@gmail.com</Link>
                                             </li>
                                         </ul>
                                     </div>
