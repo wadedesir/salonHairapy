@@ -17,11 +17,11 @@ class Team extends Component {
                         content="#"
                     />
                 </MetaTags>
-                <Header/>
-                <Breadcrumb breadcrumb={{pagename:'Team'}}/>
-                <Content/>
-                <Instafeeds/>
-                <Footer/>
+                <Header />
+                <Breadcrumb breadcrumb={{ pagename: 'Team' }} />
+                <Content />
+                {/* <Instafeeds/> */}
+                <Footer />
             </Fragment>
         );
     }

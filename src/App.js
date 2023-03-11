@@ -37,10 +37,12 @@ import Wishlist from './components/pages/Wishlist';
 
 function App() {
   return (
-    <Router basename={'/themes/themeforest/react/laramiss'}>
+    <Router basename={'/'}>
       <Preloader />
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/index" component={Home} />
+        <Route exact path="/index.html" component={Home} />
         <Route exact path="/home-two" component={Hometwo} />
         <Route exact path="/home-three" component={Homethree} />
         <Route exact path="/home-four" component={Homefour} />
@@ -73,7 +75,7 @@ function App() {
 
 
         <Route exact path="/error" component={Error} />
-        <Route exact component={Error} />
+        <Route exact component={Home} />
       </Switch>
     </Router>
   );

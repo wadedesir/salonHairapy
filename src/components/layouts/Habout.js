@@ -73,7 +73,7 @@ class Habout extends Component {
                                             </p>
                                         </div>
                                     </div> */}
-                                    <div>
+                                    <div className='m-3'>
                                         <img src={awa} alt="picture of hair products" />
                                     </div>
                                 </Masonry>

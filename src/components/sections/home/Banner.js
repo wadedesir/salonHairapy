@@ -4,11 +4,11 @@ import Slider from 'react-slick';
 import ReactWOW from 'react-wow';
 import Cursor from '../../layouts/Cursor';
 
-import img1 from '../../../assets/img/banner/landing1.jpg';
-import img2 from '../../../assets/img/banner/landing2.jpg';
+// import img1 from '../../../assets/img/custom/kathy.jpg';
+import img2 from '../../../assets/img/banner/landing1.jpg';
 
 const bannerposts = [
-    { img: img1 },
+    // { img: img1 },
     { img: img2 },
 ]
 
@@ -32,27 +32,31 @@ class Banner extends Component {
  */}
                 <Cursor />
                 <ReactWOW animation='fadeIn' data-delay=".3s">
-                    <div className="d-none d-md-block vertical-text">
+                    <div className="d-md-block vertical-text">
                         <ul>
                             <li>
-                                <Link to="https://www.facebook.com/SalonHairapyMalden"> <i className="fab fa-facebook" /> Facebook </Link>
+                                <a href="https://www.facebook.com/SalonHairapyMalden"> <i className="fab fa-facebook" /> Facebook </a>
                             </li>
                             <li>
-                                <Link to="https://www.instagram.com/salonhairapymalden/?hl=en"> <i className="fab fa-instagram" /> Instagram </Link>
+                                <a href="https://www.instagram.com/salonhairapymalden/?hl=en"> <i className="fab fa-instagram" /> Instagram </a>
                             </li>
                             <li>
+HEAD
                                 <Link to="https://twitter.com/SalonHairapy"> <i className="fab fa-twitter" /> Twitter </Link>
                             </li>
                             <li>
                                 <Link to="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-yelp" /> yelp</Link>
+=======
+                                <a href="https://www.tiktok.com/@salonhairapy" ><i className="fab fa-tiktok" /> tiktok </a>
                             </li>
+
                         </ul>
                     </div>
                 </ReactWOW>
                 <ReactWOW animation='fadeIn' data-delay=".3s">
-                    <div className="d-none d-md-block vertical-text right">
+                    <div className=" d-md-block vertical-text right">
                         <span>Call us on: </span>
-                        <span>+123 456 789</span>
+                        <span>+1 (781) 480-3629</span>
                     </div>
                 </ReactWOW>
                 <div className="container container-custom-two">
@@ -83,8 +87,8 @@ class Banner extends Component {
                             </div>
                         </div>
                         <ReactWOW animation='fadeInRight' data-delay="0.5s">
-                            <div className="col-lg-6 col-md-6">
-                                <div className="banner-thumb d-none d-md-block">
+                            <div className="col-lg-6 col-md-6 picture-banner">
+                                <div className="banner-thumb d-md-block">
                                     <Slider className="carousel hero-slider-one" {...settings}>
                                         {bannerposts.map((item, i) => (
                                             <div key={i} className="single-thumb">

@@ -78,17 +78,20 @@ class Header extends Component {
                 <header className={`header-three header-absolute sticky-header sigma-header ${stickyheader}`} id="header">
                     <div className="header-top">
                         <div className="container-fluid container-custom-three">
-                            <div className="d-md-flex align-items-center justify-content-between">
-                                <p className="welcome-text">Need a Gift Card For a Friend or Loved One? Click Here to Grab One!</p>
-                                <ul className="header-top-info">
-                                    <li>
-                                        <i className="fal fa-Clock"> </i> Wed - Fri 9.30 AM - 7.00 PM
-                                    </li>
-                                    <li>
-                                        <i className="fal fa-Clock"> </i> Sat 9.30 AM - 4.00 PM
-                                    </li>
-                                </ul>
-                            </div>
+                            <a href="https://squareup.com/gift/6B3KQJN1024K7/order">
+                                <div className="d-md-flex align-items-center justify-content-between">
+
+                                    <p className="welcome-text text-center">Need a Gift Card For a Friend or Loved One? Click Here!</p>
+                                    <ul className="header-top-info ">
+                                        <li>
+                                            <i className="fal fa-Clock"> </i> Wed - Fri 9.30 AM - 7.00 PM
+                                        </li>
+                                        <li>
+                                            <i className="fal fa-Clock"> </i> Sat 9.30 AM - 4.00 PM
+                                        </li>
+                                    </ul>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div className="main-menu-area sticky-header">
@@ -570,7 +573,7 @@ class Header extends Component {
                                                             <ul className="sub-menu">
                                                                 <li className="menu-item"> <Link to="/videos">Videos</Link>
                                                                 </li>
-                                                                <li className="menu-item"> <Link to="/blog-detail">Teams</Link>
+                                                                <li className="menu-item"> <Link to="/blog-detail">Team</Link>
                                                                 </li>
                                                                 {/* <li className="menu-item"> <Link to="/blog-grid">Blog Grid</Link>
                                                                 </li>

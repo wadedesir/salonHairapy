@@ -20,7 +20,7 @@ class Blogdetail extends Component {
                 <Header />
                 <Breadcrumb breadcrumb={{ pagename: 'Team' }} />
                 <Content />
-                <Instafeeds />
+                {/* <Instafeeds /> */}
                 <Footer />
             </Fragment>
         );
