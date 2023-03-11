@@ -19,11 +19,11 @@ class Content extends Contacthelper {
                     <div className='col-12 d-flex justify-content-center'>
                         <div className="col-md-7 order-1 order-md-2">
                             <div className="social-links d-flex justify-content-center">
-                                <a className='contact-icons' href="https://twitter.com/SalonHairapy"> <i className="fab fa-twitter" /> </a>
+                                <a className='contact-icons' href="https://www.twitter.com/SalonHairapy"> <i className="fab fa-twitter" /> </a>
 
                                 <a className='contact-icons' href="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-yelp" /> </a>
 
-                                <a className='contact-icons' href="linkedin.com/in/kathy-montrevil-ba32ab22"> <i className="fab fa-linkedin" /> </a>
+                                <a className='contact-icons' href="https://www.linkedin.com/in/kathy-montrevil-ba32ab22"> <i className="fab fa-linkedin" /> </a>
 
                                 <a className='contact-icons' href="https://www.youtube.com/@salonhairapy4486"> <i className="fab fa-youtube" /> </a>
 
