@@ -23,9 +23,9 @@ class Content extends Contacthelper {
 
                                 <a className='contact-icons' href="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-yelp" /> </a>
 
-                                <a className='contact-icons' href="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-linkedin" /> </a>
+                                <a className='contact-icons' href="linkedin.com/in/kathy-montrevil-ba32ab22"> <i className="fab fa-linkedin" /> </a>
 
-                                <a className='contact-icons' href="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-youtube" /> </a>
+                                <a className='contact-icons' href="https://www.youtube.com/@salonhairapy4486"> <i className="fab fa-youtube" /> </a>
 
                             </div>
                         </div>
@@ -50,7 +50,7 @@ class Content extends Contacthelper {
                                     </div>
                                     <div className="desc">
                                         <h4>Phone Number</h4>
-                                        <p>+1 (781) 480-3629 <br /> +1 876 766 8</p>
+                                        <p>+1 (781) 480-3629</p>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ class Content extends Contacthelper {
                                     </div>
                                     <div className="desc">
                                         <h4>Email Address</h4>
-                                        <p>info@webmail.com <br /> jobs.webmail@mail.com</p>
+                                        <p>Salonhairapy4u@gmail.com </p>
                                     </div>
                                 </div>
                             </div>

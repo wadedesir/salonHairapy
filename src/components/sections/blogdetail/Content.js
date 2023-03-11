@@ -52,16 +52,19 @@ class Content extends Component {
                                             <span>Stylist</span>
                                             <h3>Kathy</h3>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-                                                iste natus error sit voluptatem.
+                                            With a passion for hair and beauty mixed with a Bachelor's degree in Psychology, I have spent the last ten years working in various salons in Boston and New York to create a brand that believes in the therapy of the hair, body and soul - Hairapy! 
+
+I have always had an interest in the visual arts, so it took no time to learn and develop make-up skills that allowed me to consistently venture into the exciting worlds of entertainment, weddings and even my signature “ambush make-overs”!
+
+I invite you to take a peek into “Salon Hairapy,” my first full service multicultural salon located at 902 Salem St. in Malden, MA. Through these photos, videos, special promotions, I want to share the knowledge I’ve collected over the years and showcase the craft that I love so much!!!
+
+"Get Your Dose" of everything Hairapy- therapy for your hair, body and soul!! 
                                             </p>
                                             <ul className="social-icon d-flex mt-45 justify-content-around">
-                                                <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
-                                                <li><Link to="#"><i className="fab fa-twitter" /></Link></li>
-                                                <li><Link to="#"><i className="fab fa-behance" /></Link></li>
+                                                <li><a className='contact-icons' href="https://twitter.com/kstarhair?t=Ho6JdHjQmncIThcHvmoAqQ&s=09"> <i className="fab fa-twitter" /> </a></li>
+                                                <li><Link to="#"><i className="fab fa-tiktok" /></Link></li>
                                                 <li><Link to="#"><i className="fab fa-linkedin" /></Link></li>
-                                                <li><Link to="#"><i className="fab fa-youtube" /></Link></li>
+                                                <li><Link to="#"><i className="fab fa-snapchat" /></Link></li>
                                             </ul>
                                         </div>
                                     </div>
