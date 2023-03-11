@@ -62,9 +62,12 @@ I invite you to take a peek into “Salon Hairapy,” my first full service mult
                                             </p>
                                             <ul className="social-icon d-flex mt-45 justify-content-around">
                                                 <li><a className='contact-icons' href="https://twitter.com/kstarhair?t=Ho6JdHjQmncIThcHvmoAqQ&s=09"> <i className="fab fa-twitter" /> </a></li>
-                                                <li><Link to="#"><i className="fab fa-tiktok" /></Link></li>
-                                                <li><Link to="#"><i className="fab fa-linkedin" /></Link></li>
-                                                <li><Link to="#"><i className="fab fa-snapchat" /></Link></li>
+                                                <li><a className='contact-icons' href="https://www.facebook.com/kstar.hair?mibextid=ZbWKwL"> <i className="fab fa-facebook" /> </a></li>
+                                                <li><a className='contact-icons' href="https://instagram.com/melaninaire360?igshid=YmMyMTA2M2Y="> <i className="fab fa-instagram" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.linkedin.com/in/kathy-montrevil-ba32ab22"> <i className="fab fa-linkedin" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.snapchat.com/add/kstarhair2022?share_id=Xb6DrShcO6A&locale=en-US"> <i className="fab fa-snapchat" /> </a></li>
+                                                
                                             </ul>
                                         </div>
                                     </div>
