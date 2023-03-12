@@ -5,7 +5,7 @@ const categoryposts = [
     { icon: 'flaticon-presentation', title: 'Classes', numberofproduct: 'Booking' },
     { icon: 'flaticon-dance', title: 'Private Events', numberofproduct: 'Booking' },
     { icon: 'flaticon-ceremony', title: 'Weddings', numberofproduct: 'Booking' },
-    { icon: 'flaticon-beauty', title: 'Fashion Shows', numberofproduct: 'Booking' },
+    { icon: 'flaticon-beauty', title: 'Products Featured', numberofproduct: 'Booking' },
 ];
 
 class Category extends Component {
