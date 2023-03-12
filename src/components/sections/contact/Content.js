@@ -107,9 +107,9 @@ class Content extends Contacthelper {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="input-group mb-30">
+                                    <div className="input-group mb-30 d-flex">
                                         {/* <span className="icon"><i className="far fa-clock" /></span> */}
-                                        <input placeholder='Time:' style={{ colorScheme: 'dark', width: '200px' }} type="time" name="time" value={this.state.time} onChange={this.onTimeChange} required />
+                                        <input placeholder='Time:' style={{ colorScheme: 'dark', width: '100%' }} type="time" name="time" value={this.state.time} onChange={this.onTimeChange} required />
                                     </div>
                                 </div>
                                 <div className='col-12'>
