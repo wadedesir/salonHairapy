@@ -60,6 +60,10 @@
     color: gold;
 }
 
+input[type="date"]{
+    width: 100%;
+}
+
 input[type="date"]:before {
     content: attr(placeholder) !important;
     color: #aaa;
