@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 
 const categoryposts = [
-    { icon: 'flaticon-presentation', title: 'Demo', numberofproduct: 'Book' },
-    { icon: 'flaticon-dance', title: 'Private Event', numberofproduct: 'Book' },
-    { icon: 'flaticon-ceremony', title: 'Wedding', numberofproduct: 'Book' },
-    { icon: 'flaticon-beauty', title: 'Fashion Shows', numberofproduct: 'Book' },
+    { icon: 'flaticon-presentation', title: 'Demo', numberofproduct: 'Booking' },
+    { icon: 'flaticon-dance', title: 'Private Event', numberofproduct: 'Bookig' },
+    { icon: 'flaticon-ceremony', title: 'Wedding', numberofproduct: 'Booking' },
+    { icon: 'flaticon-beauty', title: 'Fashion Shows', numberofproduct: 'Booking' },
 ];
 
 class Category extends Component {
@@ -38,4 +38,4 @@ class Category extends Component {
     }
 }
 
-export default Category;
+export default Category; 
