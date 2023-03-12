@@ -103,13 +103,13 @@ class Content extends Contacthelper {
                                 <div className="col-md-6">
                                     <div className="input-group mb-30">
                                         {/* <span className="icon"><i className="far fa-book" /></span> */}
-                                        <input placeholder="Date:" style={{ colorScheme: 'dark', width: '200px' }} type="date" name="date" value={this.state.date} onChange={this.onDateChange} required />
+                                        <input placeholder="Date:" style={{ colorScheme: 'dark' }} type="date" name="date" value={this.state.date} onChange={this.onDateChange} required />
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="input-group mb-30 d-flex">
+                                    <div className="input-group mb-30 col-12">
                                         {/* <span className="icon"><i className="far fa-clock" /></span> */}
-                                        <input placeholder='Time:' style={{ colorScheme: 'dark', width: '100%' }} type="time" name="time" value={this.state.time} onChange={this.onTimeChange} required />
+                                        <input placeholder='Time:' style={{ colorScheme: 'dark' }} type="time" name="time" value={this.state.time} onChange={this.onTimeChange} required />
                                     </div>
                                 </div>
                                 <div className='col-12'>
