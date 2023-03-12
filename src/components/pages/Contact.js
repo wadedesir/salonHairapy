@@ -12,14 +12,14 @@ const Contact = () => {
     return (
         <Fragment>
             <MetaTags>
-                <title>Laramiss | Contact Us</title>
+                <title>Salon Hairapy | Book Appointment</title>
                 <meta
                     name="description"
                     content="#"
                 />
             </MetaTags>
             <Header />
-            <Breadcrumb breadcrumb={{ pagename: 'Contact Us' }} />
+            <Breadcrumb breadcrumb={{ pagename: 'Appointment' }} />
             <Content />
             <Footer contactCard={contactCard} />
         </Fragment>

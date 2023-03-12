@@ -5,6 +5,7 @@ const navigationmenu = [
     {
         id: 1,
         linkText: 'Home',
+        link: '/',
         // child: true,
         // submenu: [
         //     {
@@ -36,12 +37,12 @@ const navigationmenu = [
         submenu: [
             {
                 id: 21,
-                link: '/shop-left',
+                link: '/items-services/beauty',
                 linkText: 'Beauty'
             },
             {
                 id: 22,
-                link: '/braid-extensions',
+                link: '/items-services/braid-extensions',
                 linkText: 'Braid Extensions'
             },
             {
@@ -95,6 +96,7 @@ const navigationmenu = [
     {
         id: 3,
         linkText: 'KStar Essentials',
+        link: '/products/kstar',
         // child: true,
         // submenu: [
         //     {
@@ -121,19 +123,26 @@ const navigationmenu = [
     },
     {
         id: 4,
-        linkText: 'Pages',
+        linkText: 'About Us',
         child: true,
         submenu: [
             {
                 id: 41,
-                link: '/blog',
-                linkText: 'Blog'
+                link: '/videos',
+                linkText: 'Videos'
             },
             {
                 id: 42,
-                link: '/teams',
-                linkText: 'Teams'
-            },
+                link: '/team',
+                linkText: 'Team'
+            }
+        ]
+    },
+    {
+        id: 5,
+        linkText: 'Photos',
+        child: true,
+        submenu: [
             {
                 id: 43,
                 link: '/gallery',
@@ -147,19 +156,14 @@ const navigationmenu = [
         ]
     },
     {
-        id: 5,
-        linkText: 'About',
-        link: '/about'
-    },
-    {
         id: 6,
-        linkText: 'Book Appointment',
-        link: '/book-appointment'
+        linkText: 'Shop Luxury Hair',
+        link: '/luxury'
     },
     {
         id: 7,
-        linkText: 'Shop Luxury Hair',
-        link: '/shop-left'
+        linkText: 'Book Appointment',
+        link: '/book-appointment'
     },
     // {
     //     id: 8,
@@ -193,7 +197,7 @@ class Mobilemenu extends Component {
             <ul className="sigma-main-menu">
                 {navigationmenu.length > 0 ? navigationmenu.map((item, i) => (
                     <li key={i} className={`menu-item ${item.child ? 'menu-item-has-children' : ''} `} onClick={this.triggerChild}>
-                        {item.child ? <Link onClick={e => e.preventDefault()} to="/"> {item.linkText} </Link> : <Link to={item.link}> {item.linkText} </Link>}
+                        {item.child ? <Link onClick={e => e.preventDefault()} to="/"> {item.linkText} </Link> : item.link == '/book-appointment' ? <Link style={{ color: 'gold' }} to={item.link}> {item.linkText} </Link> : item.link == '/luxury' ? <a href="https://shairapy.mayvenn.com">{item.linkText}</a> : <Link to={item.link}> {item.linkText} </Link>}
                         {item.child ?
                             <ul className="sub-menu" role="menu">
                                 {item.submenu.map((sub_item, i) => (

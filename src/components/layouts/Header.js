@@ -573,7 +573,7 @@ class Header extends Component {
                                                             <ul className="sub-menu">
                                                                 <li className="menu-item"> <Link to="/videos">Videos</Link>
                                                                 </li>
-                                                                <li className="menu-item"> <Link to="/blog-detail">Team</Link>
+                                                                <li className="menu-item"> <Link to="/team">Team</Link>
                                                                 </li>
                                                                 {/* <li className="menu-item"> <Link to="/blog-grid">Blog Grid</Link>
                                                                 </li>
