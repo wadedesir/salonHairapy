@@ -103,13 +103,13 @@ class Content extends Contacthelper {
                                 <div className="col-md-6">
                                     <div className="input-group mb-30">
                                         {/* <span className="icon"><i className="far fa-book" /></span> */}
-                                        <input placeholder="Date:" style={{ colorScheme: 'dark' }} type="date" name="date" value={this.state.date} onChange={this.onDateChange} required />
+                                        <input placeholder="Date:" style={{ colorScheme: 'dark', width: '200px' }} type="date" name="date" value={this.state.date} onChange={this.onDateChange} required />
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="input-group mb-30">
                                         {/* <span className="icon"><i className="far fa-clock" /></span> */}
-                                        <input placeholder='Time:' style={{ colorScheme: 'dark' }} type="time" name="time" value={this.state.time} onChange={this.onTimeChange} required />
+                                        <input placeholder='Time:' style={{ colorScheme: 'dark', width: '200px' }} type="time" name="time" value={this.state.time} onChange={this.onTimeChange} required />
                                     </div>
                                 </div>
                                 <div className='col-12'>
@@ -130,19 +130,19 @@ class Content extends Contacthelper {
                                             <img className="d-block mx-auto mb-30" src={Kathy} alt="stylist" width='150' />
                                             <h4 style={{ color: '#FCD462' }} className='text-center'>KATHY</h4>
                                             <p className='text-center my-2'>(specializes in all natural hair health and protective styles, extensions and colors)</p>
-                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='Kathy' name='stylist' onClick={this.onStylistChange} />
+                                            <input style={{ accentColor: '#FCD462' }} className="mb-30 stylistRadio " type="radio" value='Kathy' name='stylist' onClick={this.onStylistChange} />
                                         </div>
                                         <div className="">
                                             <img className="d-block mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
                                             <h4 style={{ color: '#FCD462' }} className='text-center my-2'>CASANDRA</h4>
                                             <p className='text-center'>(specializes in sew-ins, wigs, colors and chemical treatments)</p>
-                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='Casandra' name='stylist' onClick={this.onStylistChange} />
+                                            <input style={{ accentColor: '#FCD462' }} className="mb-30 stylistRadio" type="radio" value='Casandra' name='stylist' onClick={this.onStylistChange} />
                                         </div>
                                         <div className="">
                                             <img className="d-block mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
                                             <h4 style={{ color: '#FCD462' }} className='text-center my-2'>MELISSA</h4>
                                             <p className='text-center'>(specializes in natural braids and twists, locs and kids styles)</p>
-                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='Melissa' name='stylist' onClick={this.onStylistChange} />
+                                            <input style={{ accentColor: '#FCD462' }} className="mb-30 mx-auto stylistRadio" type="radio" value='Melissa' name='stylist' onClick={this.onStylistChange} />
                                         </div>
                                     </div>
                                 </div>
