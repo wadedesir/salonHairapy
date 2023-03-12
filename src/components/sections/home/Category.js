@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 
 const categoryposts = [
-    { icon: 'flaticon-presentation', title: 'Demo', numberofproduct: 'Booking' },
-    { icon: 'flaticon-dance', title: 'Private Event', numberofproduct: 'Bookig' },
-    { icon: 'flaticon-ceremony', title: 'Wedding', numberofproduct: 'Booking' },
+    { icon: 'flaticon-presentation', title: 'Classes', numberofproduct: 'Booking' },
+    { icon: 'flaticon-dance', title: 'Private Events', numberofproduct: 'Booking' },
+    { icon: 'flaticon-ceremony', title: 'Weddings', numberofproduct: 'Booking' },
     { icon: 'flaticon-beauty', title: 'Fashion Shows', numberofproduct: 'Booking' },
 ];
 
