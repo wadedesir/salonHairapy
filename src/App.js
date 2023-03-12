@@ -37,7 +37,7 @@ import Wishlist from './components/pages/Wishlist';
 
 function App() {
   return (
-    <Router basename={'/'}>
+    <Router forceRefresh={true} basename={'/'}>
       <Preloader />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -67,7 +67,7 @@ function App() {
         <Route exact path="/shop-left-two" component={Shoplefttwo} />
         <Route exact path="/shop-right" component={Shopright} />
         <Route exact path="/shop-right-two" component={Shoprighttwo} />
-        <Route exact path="/team" component={Team} />
+        <Route exact path="/team" component={Blogdetail} />
         <Route exact path="/typography" component={Typography} />
         <Route exact path="/wishlist" component={Wishlist} />
         <Route exact path="/items-services/:id" component={Shopleft} />

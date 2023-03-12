@@ -41,12 +41,6 @@ class Banner extends Component {
                                 <a href="https://www.instagram.com/salonhairapymalden/?hl=en"> <i className="fab fa-instagram" /> Instagram </a>
                             </li>
                             <li>
-HEAD
-                                <Link to="https://twitter.com/SalonHairapy"> <i className="fab fa-twitter" /> Twitter </Link>
-                            </li>
-                            <li>
-                                <Link to="https://www.yelp.com/biz/salon-hairapy-malden"> <i className="fab fa-yelp" /> yelp</Link>
-=======
                                 <a href="https://www.tiktok.com/@salonhairapy" ><i className="fab fa-tiktok" /> tiktok </a>
                             </li>
 

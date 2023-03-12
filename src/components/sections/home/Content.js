@@ -30,8 +30,8 @@ class Content extends Component {
                 {/* <Condos/> */}
                 {/* <Productslider /> */}
                 {/* <Instafeeds /> */}
-                <Ourproducts />
-                <Cta />
+                {/* <Ourproducts /> */}
+                {/* <Cta /> */}
                 {/* <Bestselling /> */}
                 {/* <Ourcategory /> */}
                 {/* <Handpick /> */}

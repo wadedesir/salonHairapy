@@ -74,6 +74,9 @@ class Contacthelper extends Component {
 
     handleSubmit(e) {
         e.preventDefault();
+        if (!window.confirm('PLEASE NOTE. If you do NOT receive a CONFIRMATION e-mail, you DO NOT have an appointment! Click OK to accept or cancel to cancel your booking')) {
+            return
+        }
         const date = new Date(this.state.date)
         console.log(date)
         // date.setTime(this.state.time)

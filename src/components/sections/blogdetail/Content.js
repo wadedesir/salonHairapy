@@ -49,16 +49,16 @@ class Content extends Component {
                                             <img src={kathy} alt="" />
                                         </div>
                                         <div className="info-text">
-                                            <span>Stylist</span>
+                                            <span>Stylist CO-OWNER</span>
                                             <h3>Kathy</h3>
                                             <p>
-                                            With a passion for hair and beauty mixed with a Bachelor's degree in Psychology, I have spent the last ten years working in various salons in Boston and New York to create a brand that believes in the therapy of the hair, body and soul - Hairapy! 
+                                                With a passion for hair and beauty mixed with a Bachelor's degree in Psychology, I have spent the last ten years working in various salons in Boston and New York to create a brand that believes in the therapy of the hair, body and soul - Hairapy!
 
-I have always had an interest in the visual arts, so it took no time to learn and develop make-up skills that allowed me to consistently venture into the exciting worlds of entertainment, weddings and even my signature “ambush make-overs”!
+                                                I have always had an interest in the visual arts, so it took no time to learn and develop make-up skills that allowed me to consistently venture into the exciting worlds of entertainment, weddings and even my signature “ambush make-overs”!
 
-I invite you to take a peek into “Salon Hairapy,” my first full service multicultural salon located at 902 Salem St. in Malden, MA. Through these photos, videos, special promotions, I want to share the knowledge I’ve collected over the years and showcase the craft that I love so much!!!
+                                                I invite you to take a peek into “Salon Hairapy,” my first full service multicultural salon located at 902 Salem St. in Malden, MA. Through these photos, videos, special promotions, I want to share the knowledge I’ve collected over the years and showcase the craft that I love so much!!!
 
-"Get Your Dose" of everything Hairapy- therapy for your hair, body and soul!! 
+                                                "Get Your Dose" of everything Hairapy- therapy for your hair, body and soul!!
                                             </p>
                                             <ul className="social-icon d-flex mt-45 justify-content-around">
                                                 <li><a className='contact-icons' href="https://twitter.com/kstarhair?t=Ho6JdHjQmncIThcHvmoAqQ&s=09"> <i className="fab fa-twitter" /> </a></li>
@@ -67,7 +67,7 @@ I invite you to take a peek into “Salon Hairapy,” my first full service mult
                                                 <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
                                                 <li><a className='contact-icons' href="https://www.linkedin.com/in/kathy-montrevil-ba32ab22"> <i className="fab fa-linkedin" /> </a></li>
                                                 <li><a className='contact-icons' href="https://www.snapchat.com/add/kstarhair2022?share_id=Xb6DrShcO6A&locale=en-US"> <i className="fab fa-snapchat" /> </a></li>
-                                                
+
                                             </ul>
                                         </div>
                                     </div>

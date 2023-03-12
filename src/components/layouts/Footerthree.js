@@ -17,10 +17,12 @@ const Footerthree = ({ contactCard }) => {
                                     <div className="footer-logo mb-45">
                                         <img style={{ width: '50%' }} src={contactCard ? contactCard : logo} alt="images" />
                                     </div>
+
                                     <p>
                                     Have an appointment request, question or concern? Send us a message! Want to send a photo? 
                                     Email us directly at SalonHairapy4u@gmail.com - PLEASE NOTE if you do NOT receive a CONFIRMATION e-mail you DO NOT have an appointment!
                                     </p>
+
                                     <form action="#" className="subscribe-form mt-50">
                                         <input type="email" placeholder="Enter your email address" />
                                         <button type="submit">subscribe</button>

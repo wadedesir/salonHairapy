@@ -14,7 +14,7 @@ class Content extends Contacthelper {
         // });
         return (
             <section className="contact-part pt-115 pb-115">
-                <div className="container">
+                <div className="container d-flex flex-column-reverse flex-md-column">
                     {/* Contact Info */}
                     <div className='col-12 d-flex justify-content-center'>
                         <div className="col-md-7 order-1 order-md-2">
@@ -30,7 +30,7 @@ class Content extends Contacthelper {
                             </div>
                         </div>
                     </div>
-                    <div className="contact-info">
+                    <div className="contact-info mt-3">
                         <div className="row justify-content-center">
                             <div className="col-lg-4 col-sm-6 col-10">
                                 <div className="info-box">
@@ -39,7 +39,7 @@ class Content extends Contacthelper {
                                     </div>
                                     <div className="desc">
                                         <h4>Office Address</h4>
-                                        <p>902 SALEM ST MALDEN, MA 02148</p>
+                                        <p>902 Salem St, MA 02148</p>
                                     </div>
                                 </div>
                             </div>
@@ -103,13 +103,13 @@ class Content extends Contacthelper {
                                 <div className="col-md-6">
                                     <div className="input-group mb-30">
                                         {/* <span className="icon"><i className="far fa-book" /></span> */}
-                                        <input style={{ colorScheme: 'dark' }} type="date" name="date" value={this.state.date} onChange={this.onDateChange} required />
+                                        <input placeholder="Date:" style={{ colorScheme: 'dark' }} type="date" name="date" value={this.state.date} onChange={this.onDateChange} required />
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="input-group mb-30">
+                                    <div className="input-group mb-30 col-12">
                                         {/* <span className="icon"><i className="far fa-clock" /></span> */}
-                                        <input style={{ colorScheme: 'dark' }} type="time" name="time" value={this.state.time} onChange={this.onTimeChange} required />
+                                        <input placeholder='Time:' style={{ colorScheme: 'dark' }} type="time" name="time" value={this.state.time} onChange={this.onTimeChange} required />
                                     </div>
                                 </div>
                                 <div className='col-12'>
@@ -126,23 +126,23 @@ class Content extends Contacthelper {
 
                                     </div> */}
                                     <div className="col-12 input-group mb-30 mt-30 d-flex flex-column flex-md-row justify-content-around"  >
-                                        <div className="">
+                                        <div className="d-flex flex-column justify-content-center align-items-center">
                                             <img className="d-block mx-auto mb-30" src={Kathy} alt="stylist" width='150' />
                                             <h4 style={{ color: '#FCD462' }} className='text-center'>KATHY</h4>
                                             <p className='text-center my-2'>(specializes in all natural hair health and protective styles, extensions and colors)</p>
-                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='Kathy' name='stylist' onClick={this.onStylistChange} />
+                                            <input style={{ accentColor: '#FCD462' }} className="mb-30 stylistRadio " type="radio" value='Kathy' name='stylist' onClick={this.onStylistChange} />
                                         </div>
                                         <div className="">
                                             <img className="d-block mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
                                             <h4 style={{ color: '#FCD462' }} className='text-center my-2'>CASANDRA</h4>
                                             <p className='text-center'>(specializes in sew-ins, wigs, colors and chemical treatments)</p>
-                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='Casandra' name='stylist' onClick={this.onStylistChange} />
+                                            <input style={{ accentColor: '#FCD462' }} className="mb-30 stylistRadio" type="radio" value='Casandra' name='stylist' onClick={this.onStylistChange} />
                                         </div>
                                         <div className="">
                                             <img className="d-block mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
                                             <h4 style={{ color: '#FCD462' }} className='text-center my-2'>MELISSA</h4>
                                             <p className='text-center'>(specializes in natural braids and twists, locs and kids styles)</p>
-                                            <input style={{ accentColor: '#FCD462' }} className="mb-30" type="radio" value='Melissa' name='stylist' onClick={this.onStylistChange} />
+                                            <input style={{ accentColor: '#FCD462' }} className="mb-30 mx-auto stylistRadio" type="radio" value='Melissa' name='stylist' onClick={this.onStylistChange} />
                                         </div>
                                     </div>
                                 </div>
@@ -165,7 +165,7 @@ class Content extends Contacthelper {
                                         onChange={this.reCaptchaLoaded.bind(this)}
                                         size="invisible"
                                     /> */}
-                                    <button type="submit" className="main-btn btn-filled">Get Free Quote</button>
+                                    <button type="submit" className="main-btn btn-filled">Request Appointment</button>
                                     {/* Form Messages */}
                                     <Alert variant="success" className="d-none mt-3 mb-0" id="server_response_success">
                                         <strong>Success!</strong> Contact form has been successfully submitted.
