@@ -13,8 +13,8 @@ class Gallerytwo extends Component {
                 <MetaTags>
                     <title>Salon Hairapy | Gallery 2</title>
                     <meta
-                        name="View our gallery of completed styles."
-                        content="#"
+                        name="description"
+                        content="View our gallery of completed styles."
                     />
                 </MetaTags>
                 <Header />

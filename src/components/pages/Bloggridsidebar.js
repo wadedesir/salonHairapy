@@ -13,8 +13,8 @@ class Bloggridsidebar extends Component {
                 <MetaTags>
                     <title> Salon Hairapy | Videos</title>
                     <meta
-                        name="Come watch our hair tutorials"
-                        content="#"
+                        name="description"
+                        content="Come watch our hair tutorials"
                     />
                 </MetaTags>
                 <Header />

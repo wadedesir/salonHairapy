@@ -12,8 +12,8 @@ class Home extends Component {
                 <MetaTags>
                     <title>Salon Hairapy | Homepage</title>
                     <meta
-                        name="Welcome to Salon Hairapy where we provide services that not only boost your confidence but it's therapy for the mind body and soul."
-                        content="#"
+                        name="description"
+                        content="Welcome to Salon Hairapy where we provide services that not only boost your confidence but it's therapy for the mind body and soul."
                     />
                 </MetaTags>
                 {/* <Newsletter /> */}

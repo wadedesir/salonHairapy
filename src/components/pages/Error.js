@@ -7,13 +7,13 @@ class Error extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Laramiss | Error</title>
+                    <title>Salon Hairapy | Error</title>
                     <meta
                         name="description"
                         content="#"
                     />
                 </MetaTags>
-                <Content/>
+                <Content />
             </Fragment>
         );
     }
