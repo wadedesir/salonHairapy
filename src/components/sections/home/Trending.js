@@ -122,7 +122,8 @@ const Trending = () => {
 
             </div>
             <div className="text-center mt-20">
-                <Link to="#" onClick={() => {
+                <Link to="#" onClick={(e) => {
+                    e.preventDefault()
                     if (toggleStyles) {
                         priceRefLower.current.classList.remove('d-none')
                         priceRefUpper.current.classList.add('d-none')
