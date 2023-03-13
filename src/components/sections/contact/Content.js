@@ -165,7 +165,7 @@ class Content extends Contacthelper {
                                         onChange={this.reCaptchaLoaded.bind(this)}
                                         size="invisible"
                                     /> */}
-                                    <button type="submit" className="main-btn btn-filled">Request Appointment</button>
+                                    <button style={{ maxWidth: '100%' }} type="submit" className="main-btn btn-filled">Request Appointment</button>
                                     {/* Form Messages */}
                                     <Alert variant="success" className="d-none mt-3 mb-0" id="server_response_success">
                                         <strong>Success!</strong> Contact form has been successfully submitted.

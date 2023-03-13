@@ -36,7 +36,7 @@ const Footerthree = ({ contactCard }) => {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-md-5 order-2 order-md-1">
-                                <p className="copyright-text">copyright by@Yourwebsite</p>
+                                <p className="copyright-text">copyright by@Salon Hairapy</p>
                             </div>
                             <div className="col-md-7 order-1 order-md-2">
                                 <div className="social-links ">

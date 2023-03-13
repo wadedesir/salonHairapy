@@ -163,12 +163,12 @@ class Footer extends Component {
                     </div>
                 </div>
                 {/* Copyright */}
-                <div className="sigma-copyright">
+                <div className="sigma-copyright d-none">
                     <div className="container-fluid">
                         <div className="sigma-copyright-inner">
                             <div className="row">
                                 <div className="col-lg-6 col-md-5 order-2 order-md-1">
-                                    <p className="sigma-copyright-text">Copyright By@<Link to="#">Example</Link> - 2022</p>
+                                    <p className="sigma-copyright-text">Copyright By@<Link to="#">Salon Hairapy</Link> - 2023</p>
                                 </div>
                                 <div className="col-lg-6 col-md-7 order-1 order-md-2">
                                     <div className="sigma-copyright-menu">
