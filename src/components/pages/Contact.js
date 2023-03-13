@@ -5,6 +5,7 @@ import Breadcrumb from '../layouts/Breadcrumbs';
 import Footer from '../layouts/Footerthree';
 import Content from '../sections/contact/Content';
 import contactCard from '../../assets/img/contact-card.png'
+import coverImg from '../../assets/img/hairapy/apptFront.jpeg'
 
 const Contact = () => {
 
@@ -19,7 +20,7 @@ const Contact = () => {
                 />
             </MetaTags>
             <Header />
-            <Breadcrumb breadcrumb={{ pagename: 'Appointment' }} />
+            <Breadcrumb breadcrumb={{ pagename: 'Appointment', coverImg: coverImg }} />
             <Content />
             <Footer contactCard={contactCard} />
         </Fragment>

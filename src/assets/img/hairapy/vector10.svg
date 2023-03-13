@@ -1,0 +1,5 @@
+<svg role="progressbar" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" height="55px" width="55px" display="block"><defs><path id="svg-circle" d="
+            M 0, 27.5
+            a 27.5,27.5 0 1,0 55,0
+            a 27.5,27.5 0 1,0 -55,0
+          "></path><clipPath id="svg-circle-clip"><use xlink:href="#svg-circle"></use></clipPath></defs><g><use transform="scale(-1 1) rotate(90)" xlink:href="#svg-circle" stroke="#0E0E0E" stroke-width="4" stroke-dasharray="172.78759594743863 172.78759594743863" stroke-dashoffset="172.78759594743863" fill="white" clip-path="url(#svg-circle-clip)" style="transform-origin: 50% 50%; transition: stroke-dashoffset 50ms linear 0s, transform 50ms linear 0s;"></use></g></svg>

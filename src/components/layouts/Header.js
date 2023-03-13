@@ -96,9 +96,9 @@ class Header extends Component {
                     </div>
                     <div className="main-menu-area sticky-header">
                         <div className="container-fluid container-custom-three">
-                            <div className="nav-container d-flex align-items-center justify-content-between">
+                            <div className="nav-container d-flex align-items-center justify-content-between position-relative">
                                 {/* Site Logo */}
-                                <div className="site-logo site-logo-text">
+                                <div className="site-logo site-logo-text position-absolute">
                                     <Link to="/">
                                         {/* <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xmlSpace="preserve">
                                             <path d="M369.853,250.251l-100-241C267.53,3.65,262.062,0,255.999,0s-11.531,3.65-13.854,9.251l-100,241    c-1.527,3.681-1.527,7.817,0,11.498l100,241c2.323,5.601,7.791,9.251,13.854,9.251s11.531-3.65,13.854-9.251l100-241    C371.381,258.068,371.381,253.932,369.853,250.251z M255.999,457.861L172.239,256l83.76-201.861L339.759,256L255.999,457.861z" fill="#ffffff" />
@@ -113,7 +113,7 @@ class Header extends Component {
                                     </Link>
                                 </div>
                                 {/* Main Menu */}
-                                <div className="nav-menu d-lg-flex align-items-center justify-content-between">
+                                <div className="nav-menu d-lg-flex align-items-center justify-content-between mx-auto">
                                     {/* Navbar Close Icon */}
                                     <div className="navbar-close">
                                         <div className="cross-wrap"><span className="top" /><span className="bottom" /></div>
@@ -566,11 +566,15 @@ class Header extends Component {
                                                                 Diamond
                                                             </Link>
                                                         </li> */}
-                                                        <li className="menu-item menu-item-has-children">
-                                                            <Link to="#">
+                                                        <li className="menu-item">
+                                                            {/* <li className="menu-item menu-item-has-children"> */}
+                                                            {/* <Link to="#">
                                                                 About Us
+                                                            </Link> */}
+                                                            <Link to="/team">
+                                                                Team
                                                             </Link>
-                                                            <ul className="sub-menu">
+                                                            <ul className="sub-menu d-none">
                                                                 <li className="menu-item"> <Link to="/videos">Videos</Link>
                                                                 </li>
                                                                 <li className="menu-item"> <Link to="/team">Team</Link>

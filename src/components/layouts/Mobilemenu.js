@@ -30,101 +30,103 @@ const navigationmenu = [
         //     },
         // ]
     },
-    {
-        id: 2,
-        linkText: 'Services',
-        child: true,
-        submenu: [
-            {
-                id: 21,
-                link: '/items-services/beauty',
-                linkText: 'Beauty'
-            },
-            {
-                id: 22,
-                link: '/items-services/braid-extensions',
-                linkText: 'Braid Extensions'
-            },
-            {
-                id: 23,
-                link: '/items-services/braid-naturals',
-                linkText: 'Braid Naturals'
-            },
-            {
-                id: 24,
-                link: '/items-services/colors',
-                linkText: 'Colors'
-            },
-            {
-                id: 25,
-                link: '/items-services/cuts-and-trims',
-                linkText: 'Locs'
-            },
-            {
-                id: 26,
-                link: '/items-services/presses',
-                linkText: 'Presses'
-            },
-            {
-                id: 27,
-                link: '/items-services/relaxers',
-                linkText: 'Relaxers'
-            },
-            {
-                id: 28,
-                link: '/items-services/sets',
-                linkText: 'Sets'
-            },
-            {
-                id: 29,
-                link: '/items-services/twist-naturals',
-                linkText: 'Twist/Naturals'
-            },
-            {
-                id: 210,
-                link: '/items-services/wash-treatments',
-                linkText: 'Wash/Treatments'
-            },
-            {
-                id: 211,
-                link: '/items-services/weaves',
-                linkText: 'Weaves'
-            },
+    // {
+    //     id: 2,
+    //     linkText: 'Services',
+    //     child: true,
+    //     submenu: [
+    //         {
+    //             id: 21,
+    //             link: '/items-services/beauty',
+    //             linkText: 'Beauty'
+    //         },
+    //         {
+    //             id: 22,
+    //             link: '/items-services/braid-extensions',
+    //             linkText: 'Braid Extensions'
+    //         },
+    //         {
+    //             id: 23,
+    //             link: '/items-services/braid-naturals',
+    //             linkText: 'Braid Naturals'
+    //         },
+    //         {
+    //             id: 24,
+    //             link: '/items-services/colors',
+    //             linkText: 'Colors'
+    //         },
+    //         {
+    //             id: 25,
+    //             link: '/items-services/cuts-and-trims',
+    //             linkText: 'Locs'
+    //         },
+    //         {
+    //             id: 26,
+    //             link: '/items-services/presses',
+    //             linkText: 'Presses'
+    //         },
+    //         {
+    //             id: 27,
+    //             link: '/items-services/relaxers',
+    //             linkText: 'Relaxers'
+    //         },
+    //         {
+    //             id: 28,
+    //             link: '/items-services/sets',
+    //             linkText: 'Sets'
+    //         },
+    //         {
+    //             id: 29,
+    //             link: '/items-services/twist-naturals',
+    //             linkText: 'Twist/Naturals'
+    //         },
+    //         {
+    //             id: 210,
+    //             link: '/items-services/wash-treatments',
+    //             linkText: 'Wash/Treatments'
+    //         },
+    //         {
+    //             id: 211,
+    //             link: '/items-services/weaves',
+    //             linkText: 'Weaves'
+    //         },
 
-        ]
-    },
-    {
-        id: 3,
-        linkText: 'KStar Essentials',
-        link: '/products/kstar',
-        // child: true,
-        // submenu: [
-        //     {
-        //         id: 31,
-        //         link: '/blog-grid-sidebar',
-        //         linkText: 'Blog Grid Sidebar'
-        //     },
-        //     {
-        //         id: 32,
-        //         link: '/blog-detail',
-        //         linkText: 'Blog Details'
-        //     },
-        //     {
-        //         id: 33,
-        //         link: '/blog-grid',
-        //         linkText: 'Blog Grid'
-        //     },
-        //     {
-        //         id: 34,
-        //         link: '/blog-list',
-        //         linkText: 'Blog List'
-        //     },
-        // ]
-    },
+    //     ]
+    // },
+    // {
+    //     id: 3,
+    //     linkText: 'KStar Essentials',
+    //     link: '/products/kstar',
+    // child: true,
+    // submenu: [
+    //     {
+    //         id: 31,
+    //         link: '/blog-grid-sidebar',
+    //         linkText: 'Blog Grid Sidebar'
+    //     },
+    //     {
+    //         id: 32,
+    //         link: '/blog-detail',
+    //         linkText: 'Blog Details'
+    //     },
+    //     {
+    //         id: 33,
+    //         link: '/blog-grid',
+    //         linkText: 'Blog Grid'
+    //     },
+    //     {
+    //         id: 34,
+    //         link: '/blog-list',
+    //         linkText: 'Blog List'
+    //     },
+    // ]
+    // },
     {
         id: 4,
-        linkText: 'About Us',
-        child: true,
+        // linkText: 'About Us',
+        link: '/team',
+        linkText: 'Team',
+        child: false,
         submenu: [
             {
                 id: 41,

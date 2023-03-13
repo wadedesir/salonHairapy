@@ -6,7 +6,7 @@ import breadcrumbimg from '../../assets/img/bg/04.jpg'
 class Breadcrumbs extends Component {
     render() {
         return (
-            <section className="breadcrumb-area" style={{ backgroundImage: "url(" + breadcrumbimg + ")" }}>
+            <section className="breadcrumb-area" style={{ backgroundImage: "url(" + this.props.breadcrumb.coverImg + ")" }}>
                 <div className="container">
                     <div className="breadcrumb-text">
                         {/* <span>Shop Products</span> */}
