@@ -19,13 +19,6 @@ import setsPresses from '../../../assets/img/prices/sets&presses.jpg'
 import washTreats from '../../../assets/img/prices/wash&treats.jpg'
 import naturalBraids from '../../../assets/img/prices/natural-braids.jpg'
 
-const trendingposts = [
-    { img: img1, title: 'Locs', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
-    { img: img2, title: 'Cut and Trims', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
-    { img: img3, title: 'Braids', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
-    { img: img1, title: 'Press', text: 'Machine Design , 24 Carat', price: '$345/10gm' },
-];
-
 const Trending = () => {
     const priceRefUpper = useRef()
     const priceRefLower = useRef()
@@ -47,7 +40,7 @@ const Trending = () => {
     const isMobile = width <= 768;
 
     return (
-        <section className="pt-115 pb-115 bg-white" ref={stylesRef}>
+        <section id="storeStyles" className="pt-115 pb-115 bg-white" ref={stylesRef}>
             <div className="container" >
                 <div className="section-title text-center mb-30" >
                     {/* <div className="section-title-icon">

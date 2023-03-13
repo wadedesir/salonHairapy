@@ -15,7 +15,7 @@ const Contact = () => {
             <MetaTags>
                 <title>Salon Hairapy | Book Appointment</title>
                 <meta
-                    name="description"
+                    name="Message us with your desired service, date, and time of your appointment, and we will get back to you"
                     content="#"
                 />
             </MetaTags>

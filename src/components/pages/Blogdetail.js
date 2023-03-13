@@ -13,7 +13,7 @@ class Blogdetail extends Component {
                 <MetaTags>
                     <title>Salon Hairapy | Team</title>
                     <meta
-                        name="description"
+                        name="Come learn more about the Salon Hairapy Team"
                         content="#"
                     />
                 </MetaTags>
