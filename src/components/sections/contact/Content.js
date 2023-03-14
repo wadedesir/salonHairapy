@@ -80,7 +80,11 @@ class Content extends Contacthelper {
                     {/* Contact Form */}
                     <div className="contact-form">
                         <h2 className="text-center mb-30">Book Appointment</h2>
-                        <form onSubmit={this.handleSubmit} method="GET">
+                        <form onSubmit={(e) => {
+                            e.preventDefault()
+                            console.log('submitted')
+                        }} method="post">
+                            <input type="hidden" name="form-name" value="contact" />
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="input-group mb-30">
@@ -150,7 +154,7 @@ class Content extends Contacthelper {
                                     <label style={{ color: '#FCD462' }} for="message">Please provide any other DATE and TIME options that may work in case your first choice is unavailable...</label>
                                     <div className="input-group textarea mb-30">
                                         <span className="icon"><i className="far fa-pen" /></span>
-                                        <input type="text" placeholder="Enter Times..." name="message" value={this.state.extraTimes} onChange={this.onExtraTimesChange} required />
+                                        <input type="text" placeholder="Enter Times..." name="times" value={this.state.extraTimes} onChange={this.onExtraTimesChange} required />
                                     </div>
                                 </div>
                                 <div className="col-12">
