@@ -123,38 +123,38 @@ const navigationmenu = [
     // },
     {
         id: 4,
-        // linkText: 'About Us',
-        link: '/team',
-        linkText: 'Team',
-        child: false,
+        linkText: 'About Us',
+        child: true,
         submenu: [
-            {
-                id: 41,
-                link: '/videos',
-                linkText: 'Videos'
-            },
             {
                 id: 42,
                 link: '/team',
                 linkText: 'Team'
-            }
+            },
+            {
+                id: 41,
+                link: '/salon',
+                linkText: 'Salon'
+            },
         ]
     },
     {
         id: 5,
-        linkText: 'Photos',
-        child: true,
+        // linkText: 'Media',
+        link: '/gallery',
+        linkText: 'Gallery',
+        // child: False,
         submenu: [
             {
                 id: 43,
                 link: '/gallery',
-                linkText: 'Gallery 1'
+                linkText: 'Gallery'
             },
-            {
-                id: 44,
-                link: '/gallery-two',
-                linkText: 'Gallery 2'
-            },
+            // {
+            //     id: 44,
+            //     link: '/videos',
+            //     linkText: 'Videos'
+            // },
         ]
     },
     {

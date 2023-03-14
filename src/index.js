@@ -15,6 +15,7 @@ import './assets/css/flaticon.css';
 import './assets/fonts/flaticon/flaticon-2.css';
 import './assets/css/default.css';
 import './assets/css/style.css';
+import './assets/css/all.css'
 
 ReactDOM.render(
   <BrowserRouter basename={'/'}>

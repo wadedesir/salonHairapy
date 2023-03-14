@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Sidebar from '../../layouts/Blogsidebar';
 import Pagination from '../../layouts/Pagination';
 
 import video from '../../../assets/videos/egg.mp4'
@@ -45,28 +43,11 @@ class Content extends Component {
                                                     type='video/3gpp'>
                                                 </source>
                                             </video>
-                                            {/* <div className="post-img" style={{ backgroundImage: "url(" + item.img + ")" }} /> */}
-                                            {/* <div className="post-desc">
-                                                <ul className="post-meta">
-                                                    <li>
-                                                        <Link to="/blog-detail"><i className="fal fa-calendar-alt" />{item.postdate}</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/blog-detail"><i className="fal fa-user" />By {item.author}</Link>
-                                                    </li>
-                                                </ul>
-                                                <h4><Link to="/blog-detail">{item.title}</Link></h4>
-                                                <p>{item.text}</p>
-                                            </div> */}
                                         </div>
                                     </div>
                                 ))}
                             </div>
                         </div>
-                        {/* Blog Sidebar */}
-                        {/* <div className="col-lg-4">
-                            <Sidebar />
-                        </div> */}
                     </div>
                     <div className="pagination-wrap mt-50">
                         <Pagination />

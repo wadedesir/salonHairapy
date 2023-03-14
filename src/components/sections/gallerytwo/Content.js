@@ -3,19 +3,11 @@ import { Link } from 'react-router-dom';
 import ReactWOW from 'react-wow';
 import $ from 'jquery';
 import 'magnific-popup';
+import Pagination from '../../layouts/Pagination';
 
-// import img1 from '../../../assets/img/gallery/01.jpg';
-// import img2 from '../../../assets/img/gallery/02.jpg';
-// import img3 from '../../../assets/img/gallery/12.jpg';
-// import img4 from '../../../assets/img/gallery/04.jpg';
-// import img5 from '../../../assets/img/gallery/05.jpg';
-// import img6 from '../../../assets/img/gallery/13.jpg';
-// import img7 from '../../../assets/img/gallery/07.jpg';
-// import img8 from '../../../assets/img/gallery/08.jpg';
-
+import img1 from '../../../assets/img/hairapy/IMG_15472.jpg';
 import img2 from '../../../assets/img/hairapy/blondesewin.jpg';
 import img3 from '../../../assets/img/hairapy/SH_kid.twists2.jpeg';
-import img1 from '../../../assets/img/hairapy/IMG_15472.jpg';
 import img4 from '../../../assets/img/hairapy/IMG_2718.jpg';
 import img5 from '../../../assets/img/hairapy/IMG_2944.jpg';
 import img6 from '../../../assets/img/hairapy/IMG_5193.jpg';
@@ -63,7 +55,11 @@ class Content extends Component {
                         ))}
                     </div>
                 </div>
+                <div className="pagination-wrap mt-50">
+                    <Pagination />
+                </div>
             </div >
+
 
         );
     }

@@ -599,9 +599,9 @@ class Header extends Component {
                                                                 <li className="menu-item">
                                                                     <Link to="/gallery">Gallery</Link>
                                                                 </li>
-                                                                <li className="menu-item">
+                                                                {/* <li className="menu-item">
                                                                     <Link to="/videos">Videos</Link>
-                                                                </li>
+                                                                </li> */}
                                                                 {/* <li className="menu-item">
                                                                     <Link to="/team">Team</Link>
                                                                 </li> */}
@@ -618,7 +618,7 @@ class Header extends Component {
                                                         </li>
                                                         <li className="menu-item menu-item-has-children">
                                                             <a href="https://shairapy.mayvenn.com/">
-                                                                Shop Luxury Hair
+                                                                Shop-Luxury-Hair
                                                             </a>
                                                             {/* <Link to="#">
                                                                 Shop Luxury Hair

@@ -20,7 +20,6 @@ class Gallerytwo extends Component {
                 <Header />
                 <Breadcrumb breadcrumb={{ pagename: 'Gallery', coverImg: coverImg }} />
                 <Content />
-                {/* <Instafeeds/> */}
                 <Footer />
             </Fragment>
         );

@@ -17,6 +17,7 @@ import img1 from '../../../assets/img/blog-details/03.jpg';
 import img2 from '../../../assets/img/blog-details/04.jpg';
 
 import kathy from '../../../assets/img/custom/kathy.jpg'
+import menna from '../../../assets/img/menna.jpg'
 
 const relatedtags = [
     { tag: 'Rings' },
@@ -49,7 +50,7 @@ class Content extends Component {
                                             <img src={kathy} alt="" />
                                         </div>
                                         <div className="info-text">
-                                            <span>Stylist CO-OWNER</span>
+                                            <span>Master Stylist</span>
                                             <h3>Kathy</h3>
                                             <p>
                                                 With a passion for hair and beauty mixed with a Bachelor's degree in Psychology, I have spent the last ten years working in various salons in Boston and New York to create a brand that believes in the therapy of the hair, body and soul - Hairapy!
@@ -64,10 +65,53 @@ class Content extends Component {
                                                 <li><a className='contact-icons' href="https://twitter.com/kstarhair?t=Ho6JdHjQmncIThcHvmoAqQ&s=09"> <i className="fab fa-twitter" /> </a></li>
                                                 <li><a className='contact-icons' href="https://www.facebook.com/kstar.hair?mibextid=ZbWKwL"> <i className="fab fa-facebook" /> </a></li>
                                                 <li><a className='contact-icons' href="https://instagram.com/melaninaire360?igshid=YmMyMTA2M2Y="> <i className="fab fa-instagram" /> </a></li>
-                                                <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
                                                 <li><a className='contact-icons' href="https://www.linkedin.com/in/kathy-montrevil-ba32ab22"> <i className="fab fa-linkedin" /> </a></li>
                                                 <li><a className='contact-icons' href="https://www.snapchat.com/add/kstarhair2022?share_id=Xb6DrShcO6A&locale=en-US"> <i className="fab fa-snapchat" /> </a></li>
-
+                                                <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="author-info-box mb-45">
+                                        <div className="author-img">
+                                            <img src={authorimg} alt="" />
+                                        </div>
+                                        <div className="info-text">
+                                            <span>Lead Stylist</span>
+                                            <h3>Cassandra</h3>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
+                                                iste natus error sit voluptatem.
+                                            </p>
+                                            <ul className="social-icon d-flex mt-45 justify-content-around">
+                                                <li><a className='contact-icons' href="https://twitter.com/kstarhair?t=Ho6JdHjQmncIThcHvmoAqQ&s=09"> <i className="fab fa-twitter" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.facebook.com/kstar.hair?mibextid=ZbWKwL"> <i className="fab fa-facebook" /> </a></li>
+                                                <li><a className='contact-icons' href="https://instagram.com/melaninaire360?igshid=YmMyMTA2M2Y="> <i className="fab fa-instagram" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.linkedin.com/in/kathy-montrevil-ba32ab22"> <i className="fab fa-linkedin" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.snapchat.com/add/kstarhair2022?share_id=Xb6DrShcO6A&locale=en-US"> <i className="fab fa-snapchat" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="author-info-box mb-45">
+                                        <div className="author-img">
+                                            <img src={menna} alt="" />
+                                        </div>
+                                        <div className="info-text">
+                                            <span>Receptionist</span>
+                                            <h3>Menna</h3>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
+                                                iste natus error sit voluptatem.
+                                            </p>
+                                            <ul className="social-icon d-flex mt-45 justify-content-around">
+                                                <li><a className='contact-icons' href="https://twitter.com/kstarhair?t=Ho6JdHjQmncIThcHvmoAqQ&s=09"> <i className="fab fa-twitter" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.facebook.com/kstar.hair?mibextid=ZbWKwL"> <i className="fab fa-facebook" /> </a></li>
+                                                <li><a className='contact-icons' href="https://instagram.com/melaninaire360?igshid=YmMyMTA2M2Y="> <i className="fab fa-instagram" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.linkedin.com/in/kathy-montrevil-ba32ab22"> <i className="fab fa-linkedin" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.snapchat.com/add/kstarhair2022?share_id=Xb6DrShcO6A&locale=en-US"> <i className="fab fa-snapchat" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -77,18 +121,19 @@ class Content extends Component {
                                         </div>
                                         <div className="info-text">
                                             <span>Stylist</span>
-                                            <h3>Casandra</h3>
+                                            <h3>Christy</h3>
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                                                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
                                                 iste natus error sit voluptatem.
                                             </p>
                                             <ul className="social-icon d-flex mt-45 justify-content-around">
-                                                <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
-                                                <li><Link to="#"><i className="fab fa-twitter" /></Link></li>
-                                                <li><Link to="#"><i className="fab fa-behance" /></Link></li>
-                                                <li><Link to="#"><i className="fab fa-linkedin" /></Link></li>
-                                                <li><Link to="#"><i className="fab fa-youtube" /></Link></li>
+                                                <li><a className='contact-icons' href="https://twitter.com/kstarhair?t=Ho6JdHjQmncIThcHvmoAqQ&s=09"> <i className="fab fa-twitter" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.facebook.com/kstar.hair?mibextid=ZbWKwL"> <i className="fab fa-facebook" /> </a></li>
+                                                <li><a className='contact-icons' href="https://instagram.com/melaninaire360?igshid=YmMyMTA2M2Y="> <i className="fab fa-instagram" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.linkedin.com/in/kathy-montrevil-ba32ab22"> <i className="fab fa-linkedin" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.snapchat.com/add/kstarhair2022?share_id=Xb6DrShcO6A&locale=en-US"> <i className="fab fa-snapchat" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -97,29 +142,26 @@ class Content extends Component {
                                             <img src={authorimg} alt="" />
                                         </div>
                                         <div className="info-text">
-                                            <span>Stylist</span>
-                                            <h3>Melissa</h3>
+                                            <span>Assistant Manager</span>
+                                            <h3>Lauren</h3>
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                                                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
                                                 iste natus error sit voluptatem.
                                             </p>
                                             <ul className="social-icon d-flex mt-45 justify-content-around">
-                                                <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
-                                                <li><Link to="#"><i className="fab fa-twitter" /></Link></li>
-                                                <li><Link to="#"><i className="fab fa-behance" /></Link></li>
-                                                <li><Link to="#"><i className="fab fa-linkedin" /></Link></li>
-                                                <li><Link to="#"><i className="fab fa-youtube" /></Link></li>
+                                                <li><a className='contact-icons' href="https://twitter.com/kstarhair?t=Ho6JdHjQmncIThcHvmoAqQ&s=09"> <i className="fab fa-twitter" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.facebook.com/kstar.hair?mibextid=ZbWKwL"> <i className="fab fa-facebook" /> </a></li>
+                                                <li><a className='contact-icons' href="https://instagram.com/melaninaire360?igshid=YmMyMTA2M2Y="> <i className="fab fa-instagram" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.linkedin.com/in/kathy-montrevil-ba32ab22"> <i className="fab fa-linkedin" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.snapchat.com/add/kstarhair2022?share_id=Xb6DrShcO6A&locale=en-US"> <i className="fab fa-snapchat" /> </a></li>
+                                                <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* Blog Sidebar */}
-                        {/* <div className="col-lg-4 col-md-8 col-sm-10">
-                            <Sidebar />
-                        </div> */}
                     </div>
                 </div>
             </section>
