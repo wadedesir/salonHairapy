@@ -26,15 +26,15 @@ class Habout extends Component {
                                 <div className="abour-text pl-50 pr-50">
                                     <div className="section-title mb-30">
                                         <span className="title-tag">Service</span>
-                                        <h2>Awapuhi Intensive Treatments</h2>
+                                        <h2>Hairfinity</h2>
                                     </div>
                                     <p className="mb-30">
-                                        Need Intense Hydration or Repair? #GetYourDose by adding a 15-min Awapuhi Intensive Deep Conditioner from Paul Mitchell to your next service to rebuild and revive your hair!
+                                        Hairfinity is a complete hair care system that works from the inside out. Our holistic approach includes vitamin supplements paired with a full range of hair care products to repair, nourish and protect each strand from root to tip.
                                     </p>
                                     <p className="mb-30" >
-                                        <strong>For Damaged/Chemically Treated Hair:</strong> Our Keratriplex™ treatment is a 2-step repair process that restores texture, prevents color fade and improves shine using isolated proteins virtually identical to keratin in human hair                                    </p>
+                                        <strong></strong> On a quest to find solutions to her own hair challenges, Tymeka Lawrence created Hairfinity, a global hair care company. Hairfinity’s success is due to Tymeka’s go-getter attitude, incredible products that work, and millions of satisfied customers who shared their love of Hairfinity with their friends.</p>
                                     <p className="" >
-                                        <strong>For Dry/Frizzy Hair:</strong> Our HydraTriplex Treatment used a concentrated blend of amino acids, vegetable proteins and nourishing oils to hydrate, smooth and soften hair
+                                        <strong></strong> Our products contain only pure, gentle ingredients that work with your hair, not against it. We leave out what we call The Awful 8: Silicones, sulfates, mineral oils/petroleum, parabens, phthalates, PEG, propylene glycol, chlorine and formaldehyde
                                     </p>
                                     <Link to="/contact" className="main-btn btn-filled mt-40"> Know More</Link>
                                 </div>

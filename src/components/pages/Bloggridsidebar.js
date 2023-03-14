@@ -14,13 +14,12 @@ class Bloggridsidebar extends Component {
                     <title> Salon Hairapy | Videos</title>
                     <meta
                         name="description"
-                        content="Come watch our hair tutorials"
+                        content="Come watch our hair videos"
                     />
                 </MetaTags>
                 <Header />
                 <Breadcrumb breadcrumb={{ pagename: 'Videos' }} />
                 <Content />
-                {/* <Instafeeds /> */}
                 <Footer />
             </Fragment>
         );

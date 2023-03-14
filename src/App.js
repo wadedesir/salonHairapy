@@ -21,7 +21,7 @@ import Bloggridsidebar from './components/pages/Bloggridsidebar';
 import Contact from './components/pages/Contact';
 import Error from './components/pages/Error';
 // import Faq from './components/pages/Faq';
-import Gallery from './components/pages/Gallery';
+import Salon from './components/pages/Salon';
 import Gallerytwo from './components/pages/Gallerytwo';
 // import Legal from './components/pages/Legal';
 // import Login from './components/pages/Login';
@@ -57,8 +57,8 @@ function App() {
         {/* <Route exact path="/coming-soon" component={Comingsoon} /> */}
         <Route exact path="/book-appointment" component={Contact} />
         {/* <Route exact path="/faq" component={Faq} /> */}
-        <Route exact path="/gallery" component={Gallery} />
-        <Route exact path="/gallery-two" component={Gallerytwo} />
+        <Route exact path="/salon" component={Salon} />
+        <Route exact path="/gallery" component={Gallerytwo} />
         {/* <Route exact path="/legal" component={Legal} /> */}
         {/* <Route exact path="/login" component={Login} /> */}
         {/* <Route exact path="/register" component={Register} /> */}

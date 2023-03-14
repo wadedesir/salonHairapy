@@ -566,18 +566,15 @@ class Header extends Component {
                                                                 Diamond
                                                             </Link>
                                                         </li> */}
-                                                        <li className="menu-item">
-                                                            {/* <li className="menu-item menu-item-has-children"> */}
-                                                            {/* <Link to="#">
+                                                        {/* <li className="menu-item"> */}
+                                                        <li className="menu-item menu-item-has-children">
+                                                            <Link to="#">
                                                                 About Us
-                                                            </Link> */}
-                                                            <Link to="/team">
-                                                                Team
                                                             </Link>
-                                                            <ul className="sub-menu d-none">
-                                                                <li className="menu-item"> <Link to="/videos">Videos</Link>
-                                                                </li>
+                                                            <ul className="sub-menu">
                                                                 <li className="menu-item"> <Link to="/team">Team</Link>
+                                                                </li>
+                                                                <li className="menu-item"> <Link to="/salon">Salon</Link>
                                                                 </li>
                                                                 {/* <li className="menu-item"> <Link to="/blog-grid">Blog Grid</Link>
                                                                 </li>
@@ -587,7 +584,7 @@ class Header extends Component {
                                                         </li>
                                                         <li className="menu-item menu-item-has-children">
                                                             <Link to="#">
-                                                                Photos
+                                                                Media
                                                             </Link>
                                                             <ul className="sub-menu">
                                                                 {/* <li className="menu-item">
@@ -600,10 +597,10 @@ class Header extends Component {
                                                                     <Link to="/account">Account</Link>
                                                                 </li> */}
                                                                 <li className="menu-item">
-                                                                    <Link to="/gallery">Gallery 1</Link>
+                                                                    <Link to="/gallery">Gallery</Link>
                                                                 </li>
                                                                 <li className="menu-item">
-                                                                    <Link to="/gallery-two">Gallery 2</Link>
+                                                                    <Link to="/videos">Videos</Link>
                                                                 </li>
                                                                 {/* <li className="menu-item">
                                                                     <Link to="/team">Team</Link>

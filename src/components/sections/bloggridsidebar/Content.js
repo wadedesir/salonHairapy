@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Sidebar from '../../layouts/Blogsidebar';
 import Pagination from '../../layouts/Pagination';
 
+import video from '../../../assets/videos/egg.mp4'
+
 import img1 from '../../../assets/img/latest-post/01.jpg';
 import img2 from '../../../assets/img/latest-post/02.jpg';
 import img3 from '../../../assets/img/latest-post/03.jpg';
@@ -37,8 +39,14 @@ class Content extends Component {
                                 {bloggridposts.map((item, i) => (
                                     <div key={i} className="col-md-6">
                                         <div className="latest-post-box mb-30">
-                                            <div className="post-img" style={{ backgroundImage: "url(" + item.img + ")" }} />
-                                            <div className="post-desc">
+                                            <video width='400' height='700' controls muted>
+                                                <source
+                                                    src='../../../assets/videos/tes.3gpp'
+                                                    type='video/3gpp'>
+                                                </source>
+                                            </video>
+                                            {/* <div className="post-img" style={{ backgroundImage: "url(" + item.img + ")" }} /> */}
+                                            {/* <div className="post-desc">
                                                 <ul className="post-meta">
                                                     <li>
                                                         <Link to="/blog-detail"><i className="fal fa-calendar-alt" />{item.postdate}</Link>
@@ -49,7 +57,7 @@ class Content extends Component {
                                                 </ul>
                                                 <h4><Link to="/blog-detail">{item.title}</Link></h4>
                                                 <p>{item.text}</p>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 ))}
@@ -64,7 +72,7 @@ class Content extends Component {
                         <Pagination />
                     </div>
                 </div>
-            </section>
+            </section >
 
         );
     }
