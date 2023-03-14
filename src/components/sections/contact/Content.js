@@ -80,10 +80,9 @@ class Content extends Contacthelper {
                     {/* Contact Form */}
                     <div className="contact-form">
                         <h2 className="text-center mb-30">Book Appointment</h2>
-                        <form onSubmit={(e) => {
-                            e.preventDefault()
-                            console.log('submitted')
-                        }} method="post">
+
+                        <form method="post">
+
                             <input type="hidden" name="form-name" value="contact" />
                             <div className="row">
                                 <div className="col-md-6">
