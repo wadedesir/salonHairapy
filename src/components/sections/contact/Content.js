@@ -133,7 +133,7 @@ class Content extends Contacthelper {
                                             <img className="d-block mx-auto mb-30" src={Kathy} alt="stylist" width='150' />
                                             <h4 style={{ color: '#FCD462' }} className='text-center'>KATHY</h4>
                                             <p className='text-center my-2'>(specializes in all natural hair health and protective styles, extensions and colors)</p>
-                                            <input style={{ accentColor: '#FCD462' }} className="mb-30 stylistRadio " type="radio" value='Kathy' name='stylist' onClick={this.onStylistChange} />
+                                            <input style={{ accentColor: '#FCD462' }} className="mb-30 stylistRadio " type="radio" value='Kathy' name='stylist' onClick={this.onStylistChange} checked />
                                         </div>
                                         <div className="">
                                             <img className="d-block mx-auto mb-30" src={Stylist} alt="stylist" width='150' />
