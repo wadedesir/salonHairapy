@@ -83,6 +83,7 @@ class Content extends Contacthelper {
 
                         <form method="post">
 
+                            <input type="hidden" name="subject" value="New Appointment Request" />
                             <input type="hidden" name="form-name" value="contact" />
                             <div className="row">
                                 <div className="col-md-6">
