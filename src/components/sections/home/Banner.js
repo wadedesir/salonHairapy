@@ -66,7 +66,7 @@ class Banner extends Component {
                                 <ul>
                                     <li>
                                         <ReactWOW animation='fadeInUp' data-delay=".7s">
-                                            <Link className="main-btn btn-filled book-btn" to="/about">Book Now</Link>
+                                            <Link className="main-btn btn-filled book-btn" to="/book-appointment">Book Now</Link>
                                         </ReactWOW>
                                     </li>
                                     <li>
