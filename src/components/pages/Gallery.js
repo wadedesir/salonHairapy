@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import { Link, useLocation, useHistory } from 'react-router-dom'
 import MetaTags from "react-meta-tags";
 import Header from '../layouts/Header';
 import Breadcrumb from '../layouts/Breadcrumbs';
@@ -84,10 +85,12 @@ const page4 = [
 ];
 
 const Gallerytwo = () => {
-    let params = useParams()
+    const location = useLocation()
+    let page = location.pathname.split('')
+    page = page[page.length - 1]
 
     function getContent() {
-        switch (params.pg) {
+        switch (page) {
             case '1':
                 return <Content galleryposts={page1} />
             case '2':
