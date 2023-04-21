@@ -597,7 +597,7 @@ class Header extends Component {
                                                                     <Link to="/account">Account</Link>
                                                                 </li> */}
                                                                 <li className="menu-item">
-                                                                    <Link to="/gallery/1">Gallery</Link>
+                                                                    <Link to="/gallery1">Gallery</Link>
                                                                 </li>
                                                                 {/* <li className="menu-item">
                                                                     <Link to="/videos">Videos</Link>

@@ -141,13 +141,13 @@ const navigationmenu = [
     {
         id: 5,
         // linkText: 'Media',
-        link: '/gallery/1',
+        link: '/gallery1',
         linkText: 'Gallery',
         // child: False,
         submenu: [
             {
                 id: 43,
-                link: '/gallery/1',
+                link: '/gallery1',
                 linkText: 'Gallery'
             },
             // {
