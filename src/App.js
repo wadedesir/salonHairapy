@@ -22,14 +22,14 @@ function App() {
         <Route exact path="/videos" component={Videos} />
         <Route exact path="/book-appointment" component={Contact} />
         <Route exact path="/salon" component={Salon} />
-        <Route exact path="/gallery/1" component={Gallerytwo} />
-        <Route exact path="/gallery/2" component={Gallerytwo} />
-        <Route exact path="/gallery/3" component={Gallerytwo} />
-        <Route exact path="/gallery/4" component={Gallerytwo} />
+        <Route path="/gallery1" component={Gallerytwo} />
+        <Route path="/gallery2" component={Gallerytwo} />
+        <Route path="/gallery3" component={Gallerytwo} />
+        <Route path="/gallery4" component={Gallerytwo} />
 
-        <Route exact path="/team" component={Team} />
-        <Route exact path="/items-services/:id" component={Shopleft} />
-        <Route exact path="/products/:id" component={Shopleft} />
+        <Route path="/team" component={Team} />
+        <Route path="/items-services/:id" component={Shopleft} />
+        <Route path="/products/:id" component={Shopleft} />
         <Route exact path="/error" component={Error} />
 
         <Route exact component={Home} />
