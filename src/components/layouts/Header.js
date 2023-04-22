@@ -178,7 +178,7 @@ class Header extends Component {
                                                                                                 <h5 className="sigma-title">Product Types</h5>
                                                                                                 <ul className="sub-menu">
                                                                                                     <li className="menu-item">
-                                                                                                        <Link to="/products/kstar">KStar Essentials</Link>
+                                                                                                        <Link to="/products-services&kstar">KStar Essentials</Link>
                                                                                                     </li>
                                                                                                     {/* <li className="menu-item">
                                                                                                         <Link to="/shop-left-two">Shop Left Sidebar v2</Link>
@@ -233,22 +233,22 @@ class Header extends Component {
                                                                                                 <h5 className="sigma-title">Type Of Services</h5>
                                                                                                 <ul className="sub-menu">
                                                                                                     <li className="menu-item">
-                                                                                                        <Link to="/items-services/beauty">Beauty</Link>
+                                                                                                        <Link to="/products-services&beauty">Beauty</Link>
                                                                                                     </li>
                                                                                                     <li className="menu-item">
-                                                                                                        <Link to="/items-services/braid-extensions">Braid Extensions</Link>
+                                                                                                        <Link to="/products-services&braid-extensions">Braid Extensions</Link>
                                                                                                     </li>
                                                                                                     <li className="menu-item">
-                                                                                                        <Link to="/items-services/braid-naturals">Braid Naturals</Link>
+                                                                                                        <Link to="/products-services&braid-naturals">Braid Naturals</Link>
                                                                                                     </li>
                                                                                                     <li className="menu-item">
-                                                                                                        <Link to="/items-services/colors">Colors</Link>
+                                                                                                        <Link to="/products-services&colors">Colors</Link>
                                                                                                     </li>
                                                                                                     <li className="menu-item">
-                                                                                                        <Link to="/items-services/cuts-and-trims">Cuts/Trims</Link>
+                                                                                                        <Link to="/products-services&cuts-trims">Cuts/Trims</Link>
                                                                                                     </li>
                                                                                                     <li className="menu-item">
-                                                                                                        <Link to="/items-services/locs">Locs</Link>
+                                                                                                        <Link to="/products-services&locs">Locs</Link>
                                                                                                     </li>
 
                                                                                                 </ul>
@@ -261,25 +261,25 @@ class Header extends Component {
                                                                                                     <div className="col-md-6 menu-item-has-children">
                                                                                                         <ul className="sub-menu">
                                                                                                             <li className="menu-item">
-                                                                                                                <Link to="/items-services/presses">Presses</Link>
+                                                                                                                <Link to="/products-services&presses">Presses</Link>
                                                                                                             </li>
                                                                                                             <li className="menu-item">
-                                                                                                                <Link to="/items-services/relaxers">Relaxers</Link>
+                                                                                                                <Link to="/products-services&relaxers">Relaxers</Link>
                                                                                                             </li>
                                                                                                             <li className="menu-item">
-                                                                                                                <Link to="/items-services/sets">Sets</Link>
+                                                                                                                <Link to="/products-services&sets">Sets</Link>
                                                                                                             </li>
                                                                                                             <li className="menu-item">
-                                                                                                                <Link to="/items-services/twist-naturals">Twist/Naturals</Link>
+                                                                                                                <Link to="/products-services&twists-naturals">Twists/Naturals</Link>
                                                                                                             </li>
                                                                                                             <li className="menu-item">
-                                                                                                                <Link to="/items-services/wash-treatments">Wash/Treatments</Link>
+                                                                                                                <Link to="/products-services&wash-treatments">Wash/Treatments</Link>
                                                                                                             </li>
                                                                                                             <li className="menu-item">
-                                                                                                                <Link to="/items-services/weaves">Weaves</Link>
+                                                                                                                <Link to="/products-services&weaves">Weaves</Link>
                                                                                                             </li>
                                                                                                             {/* <li className="menu-item">
-                                                                                                                <Link to="/items-services/kids-corner">Kids Corner</Link>
+                                                                                                                <Link to="/products-services/kids-corner">Kids Corner</Link>
                                                                                                             </li> */}
                                                                                                         </ul>
                                                                                                     </div>

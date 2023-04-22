@@ -3,8 +3,8 @@ import { Link, useLocation, useHistory } from 'react-router-dom'
 
 const Pagination = () => {
     const pages = React.useRef()
-    const location = useLocation()
     const history = useHistory()
+    const location = useLocation()
 
     let page = location.pathname.split('')
     page = page[page.length - 1]

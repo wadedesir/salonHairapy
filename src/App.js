@@ -22,14 +22,29 @@ function App() {
         <Route exact path="/videos" component={Videos} />
         <Route exact path="/book-appointment" component={Contact} />
         <Route exact path="/salon" component={Salon} />
+        <Route path="/team" component={Team} />
+
         <Route path="/gallery1" component={Gallerytwo} />
         <Route path="/gallery2" component={Gallerytwo} />
         <Route path="/gallery3" component={Gallerytwo} />
         <Route path="/gallery4" component={Gallerytwo} />
 
-        <Route path="/team" component={Team} />
-        <Route path="/items-services/:id" component={Shopleft} />
-        <Route path="/products/:id" component={Shopleft} />
+        <Route path="/products-services&kstar" component={Shopleft} />
+        <Route path="/products-services&beauty" component={Shopleft} />
+        <Route path="/products-services&braid-extensions" component={Shopleft} />
+        <Route path="/products-services&braid-naturals" component={Shopleft} />
+        <Route path="/products-services&colors" component={Shopleft} />
+        <Route path="/products-services&cuts-trims" component={Shopleft} />
+        <Route path="/products-services&locs" component={Shopleft} />
+        <Route path="/products-services&presses" component={Shopleft} />
+        <Route path="/products-services&relaxers" component={Shopleft} />
+        <Route path="/products-services&sets" component={Shopleft} />
+        <Route path="/products-services&twists-naturals" component={Shopleft} />
+        <Route path="/products-services&wash-treatments" component={Shopleft} />
+        <Route path="/products-services&weaves" component={Shopleft} />
+        <Route path="/products-services&kids-corner" component={Shopleft} />
+        {/* <Route path="/products-services-beauty" component={Shopleft} /> */}
+
         <Route exact path="/error" component={Error} />
 
         <Route exact component={Home} />

@@ -6,15 +6,19 @@ import Instafeeds from '../layouts/Instafeeds';
 import Footer from '../layouts/Footerthree';
 // import Content from '../sections/shopleft/Content';
 import * as Content from '../sections/products_services'
-import { useParams } from 'react-router-dom';
 import kstar from '../../assets/img/kstar.JPG'
-
+import { useLocation } from 'react-router-dom'
 
 const Shopleft = () => {
-    let params = useParams()
+    const location = useLocation()
+
+    let page = location.pathname.split('&')
+    page = page[1]
+
+    console.log(page)
 
     function getContent() {
-        switch (params.id) {
+        switch (page) {
             case 'beauty':
                 return <Content.Beauty />
             case 'braid-extensions':
@@ -27,11 +31,11 @@ const Shopleft = () => {
                 return <Content.Locs />
             case 'colors':
                 return <Content.Colors />
-            case 'cuts-and-trims':
+            case 'cuts-trims':
                 return <Content.Cuts />
             case 'sets':
                 return <Content.Sets />
-            case 'twist-naturals':
+            case 'twists-naturals':
                 return <Content.Twists />
             case 'presses':
                 return <Content.Presses />
@@ -65,10 +69,10 @@ const Shopleft = () => {
                 />
             </MetaTags>
             <Header />
-            <Breadcrumb breadcrumb={{ pagename: titleCase(params.id) }} />
+            <Breadcrumb breadcrumb={{ pagename: titleCase(page) }} />
             {getContent()}
             {/* <Instafeeds /> */}
-            {params.id == 'kstar' ? <Footer contactCard={kstar} /> : <Footer />}
+            {page == 'kstar' ? <Footer contactCard={kstar} /> : <Footer />}
 
         </Fragment>
     );

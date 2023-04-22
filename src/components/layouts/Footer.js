@@ -127,11 +127,11 @@ class Footer extends Component {
                                         <ul>
                                             <li>
                                                 <i className="flaticon-phone" />
-                                                <Link to="tel:"><span>Phone Number</span> (781) 480-3629</Link>
+                                                <Link> <a href="tel:7814803629"> <span style={{ color: 'white' }}>Phone Number</span>(781) 480-3629</a></Link>
                                             </li>
                                             <li>
                                                 <i className="flaticon-message" />
-                                                <Link to="mailto:"><span>Email Address</span> SalonHairapy4u@gmail.com</Link>
+                                                <Link ><a href="mailto:SalonHairapy4u@gmail.com">  <span style={{ color: 'white' }}>Email Address</span>SalonHairapy4u@gmail.com </a></Link>
                                             </li>
                                         </ul>
                                     </div>
