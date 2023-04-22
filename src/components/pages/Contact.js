@@ -6,8 +6,19 @@ import Footer from '../layouts/Footerthree';
 import Content from '../sections/contact/Content';
 import contactCard from '../../assets/img/contact-card.png'
 import coverImg from '../../assets/img/hairapy/apptFront.jpeg'
+import { useLocation, useParams } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Contact = () => {
+    const location = useLocation()
+    console.log(location)
+    let service = location.search.split('=')
+    if (service.length > 1) {
+        service = service[1]
+        service = service.replace(/[^a-zA-Z]/g, ' ')
+        service = service.replace(/\s+/g, ' ').trim();
+    } else {
+        service = ''
+    }
 
     // can use both full and shortened form url
     return (
@@ -21,7 +32,7 @@ const Contact = () => {
             </MetaTags>
             <Header />
             <Breadcrumb breadcrumb={{ pagename: 'Appointment', coverImg: coverImg }} />
-            <Content />
+            <Content service={service} />
             <Footer contactCard={contactCard} />
         </Fragment>
     );

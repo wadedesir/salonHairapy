@@ -7,18 +7,20 @@ import img1 from '../../../assets/img/shop/01.jpg';
 import img2 from '../../../assets/img/shop/02.jpg';
 import img3 from '../../../assets/img/shop/03.jpg';
 
+import kstar from '../../../assets/img/kstar.JPG'
+
 const shopgridpost = [
-    { img: img1, title: 'KStar Oil', discount: '', price: 20 },
-    { img: img2, title: 'KStar Protein', discount: '', price: 35 },
-    { img: img3, title: 'KStar Shampoo', discount: '', price: 20 },
+    { img: kstar, title: 'KStar Oil', discount: '', price: 20 },
+    { img: kstar, title: 'KStar Protein', discount: '', price: 35 },
+    { img: kstar, title: 'KStar Shampoo', discount: '', price: 20 },
 
-    { img: img1, title: 'KStar Gel', discount: '', price: 25 },
-    { img: img2, title: 'KStar Oils (large)', discount: '', price: 40 },
-    { img: img3, title: 'Heat Protector', discount: '', price: 20 },
+    { img: kstar, title: 'KStar Gel', discount: '', price: 25 },
+    { img: kstar, title: 'KStar Oils (large)', discount: '', price: 40 },
+    { img: kstar, title: 'Heat Protector', discount: '', price: 20 },
 
-    { img: img1, title: 'KStar Conditioner', discount: '', price: 40 },
-    { img: img2, title: 'KStar Shampoo', discount: '', price: 10 },
-    { img: img3, title: 'Shea(small)', discount: '', price: 15 },
+    { img: kstar, title: 'KStar Conditioner', discount: '', price: 40 },
+    { img: kstar, title: 'KStar Shampoo', discount: '', price: 10 },
+    { img: kstar, title: 'Shea(small)', discount: '', price: 15 },
 
 ];
 class Content extends Component {
@@ -61,11 +63,11 @@ class Content extends Component {
                                                                 item.discount > 0 || item.discount !== '' ? <span className="price discounted">-{item.discount}%</span> : ''
                                                             }
                                                         </div>
-                                                        <div className="button-group">
+                                                        {/* <div className="button-group">
                                                             <Link to="#"><i className="far fa-heart" /></Link>
                                                             <Link to="#"><i className="far fa-sync-alt" /></Link>
                                                             <Link to="#"><i className="far fa-eye" /></Link>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                     <div className="desc">
                                                         <h4>

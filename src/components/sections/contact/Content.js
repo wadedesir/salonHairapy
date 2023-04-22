@@ -1,17 +1,30 @@
 import React from 'react';
 import Contacthelper from '../../../helper/Contacthelper';
-import ReCAPTCHA from "react-google-recaptcha";
 import { Alert } from 'react-bootstrap';
-import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
 import Stylist from '../../../assets/img/author.png';
 import Kathy from "../../../assets/img/custom/kathy.jpg";
 
 class Content extends Contacthelper {
+    constructor(props) {
+        super(props);
+        this.serviceRef = React.createRef()
+        this.formRef = React.createRef()
+        console.log(this.props.service)
+        if (this.props.service.length > 0) {
+            this.state.service = 'Service: ' + this.props.service
+        }
+    }
+
+    componentDidMount() {
+        if (this.props.service.length > 0) {
+            console.log(this.serviceRef.current)
+            this.formRef.current.scrollIntoView()
+            this.serviceRef.current.style.color = "#FCD462"
+        }
+    }
+
     render() {
-        // const Map = ReactMapboxGl({
-        //     accessToken:
-        //         'pk.eyJ1IjoiYWJlZHNoIiwiYSI6ImNrNnRyZ3d4aDAyMzkzZXBoc3RsYnM0aGwifQ.yhr3W_OOI6xXElmSY8cyPg'
-        // });
+
         return (
             <section className="contact-part pt-115 pb-115">
                 <div className="container d-flex flex-column-reverse flex-md-column">
@@ -67,18 +80,7 @@ class Content extends Contacthelper {
                             </div>
                         </div>
                     </div>
-                    {/* Contact Mapts */}
-                    {/* <Map
-                        // eslint-disable-next-line react/style-prop-object
-                        style="mapbox://styles/mapbox/light-v10"
-                        className="contact-maps mb-30"
-                    >
-                        <Layer type="symbol" id="marker" layout={{ 'icon-image': 'marker-15' }}>
-                            <Feature coordinates={[-77.04, 38.907]} zoom={11.5} />
-                        </Layer>
-                    </Map> */}
-                    {/* Contact Form */}
-                    <div className="contact-form">
+                    <div className="contact-form" ref={this.formRef}>
                         <h2 className="text-center mb-30">Book Appointment</h2>
 
                         <form method="post">
@@ -92,12 +94,6 @@ class Content extends Contacthelper {
                                         <input type="text" placeholder="Your full name" name="name" value={this.state.name} onChange={this.onNameChange} required />
                                     </div>
                                 </div>
-                                {/* <div className="col-md-6">
-                                    <div className="input-group mb-30">
-                                        <span className="icon"><i className="far fa-envelope" /></span>
-                                        <input type="email" placeholder="Enter email address" name="email" value={this.state.email} onChange={this.onEmailChange} required />
-                                    </div>
-                                </div> */}
                                 <div className="col-md-6">
                                     <div className="input-group mb-30">
                                         <span className="icon"><i className="far fa-phone" /></span>
@@ -119,7 +115,7 @@ class Content extends Contacthelper {
                                 <div className='col-12'>
                                     <div className="input-group mb-30">
                                         {/* <span className="icon"><i className="far fa-phone" /></span> */}
-                                        <input type="text" placeholder="Enter Service" name="service" value={this.state.service} onChange={this.onServiceChange} required />
+                                        <input ref={this.serviceRef} type="text" placeholder="Enter Service" name="service" value={this.state.service} onChange={this.onServiceChange} required />
                                     </div>
                                 </div>
                                 <div className='col-12' >
@@ -189,9 +185,6 @@ class Content extends Contacthelper {
 }
 
 const stylistBlock = {
-    // display: 'flex',
-    // flexDirection: 'column',
-    // justifyContent: 'center',
     width: '30%'
 }
 export default Content;

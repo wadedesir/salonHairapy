@@ -1,28 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Pagination from '../../layouts/Pagination';
-import Sidebar from '../../layouts/Shopsidebar';
 
-import img1 from '../../../assets/img/shop/01.jpg';
-import img2 from '../../../assets/img/shop/02.jpg';
-import img3 from '../../../assets/img/shop/03.jpg';
+import logo from '../../../assets/img/logo.png';
 
 const shopgridpost = [
-    { img: img1, title: 'KStar Oil', discount: '', price: 20 },
-    { img: img2, title: 'KStar Protein', discount: '', price: 35 },
-    { img: img3, title: 'KStar Shampoo', discount: '', price: 20 },
+    { img: logo, title: 'Full', discount: '', price: 125 },
+    { img: logo, title: 'KStar Protein', discount: '', price: 50 },
+    { img: logo, title: 'KStar Shampoo', discount: '', price: 40 },
 
-    { img: img1, title: 'KStar Gel', discount: '', price: 25 },
-    { img: img2, title: 'KStar Oils (large)', discount: '', price: 40 },
-    { img: img3, title: 'Heat Protector', discount: '', price: 20 },
-
-    { img: img1, title: 'KStar Conditioner', discount: '', price: 40 },
-    { img: img2, title: 'KStar Shampoo', discount: '', price: 10 },
-    { img: img3, title: 'Shea(small)', discount: '', price: 15 },
-
-    { img: img1, title: 'Shea Sealer', discount: '', price: 25 },
-    { img: img2, title: 'Stud Earrings', discount: '', price: 290 },
-    { img: img3, title: 'Crumpled Ring', discount: '', price: 450 },
+    { img: logo, title: 'KStar Gel', discount: '', price: 90 },
+    { img: logo, title: 'KStar Oils (large)', discount: '', price: 70 },
 ];
 class Content extends Component {
     render() {
@@ -30,25 +18,9 @@ class Content extends Component {
             <section className="Shop-section pt-120 pb-120">
                 <div className="container">
                     <div className="row justify-content-center">
-                        {/* Shop Sidebar */}
-                        {/* <div className="col-lg-4 col-md-10 col-sm-10"> */}
-                        {/* <Sidebar /> */}
-                        {/* </div> */}
+
                         <div className="col-lg-8 col-md-10">
                             <div className="shop-products-wrapper">
-                                <div className="shop-product-top">
-                                    <p>Showing 1 To 9 Of 60 results</p>
-                                    <div className="sorting-box">
-                                        <select name="guests" id="guests" className="nice-select">
-                                            <option value={0}>Default Sorting</option>
-                                            <option value={1}>Sort By Popularity</option>
-                                            <option value={2}>Sort By Latest</option>
-                                            <option value={4}>Sort By Rating</option>
-                                            <option value={8}>Sort By Price:Low to High</option>
-                                            <option value={8}>Sort By Price:High to Low</option>
-                                        </select>
-                                    </div>
-                                </div>
                                 <div className="product-wrapper restaurant-tab-area">
                                     <div className="row">
                                         {shopgridpost.map((item, i) => (
@@ -64,19 +36,14 @@ class Content extends Component {
                                                                 item.discount > 0 || item.discount !== '' ? <span className="price discounted">-{item.discount}%</span> : ''
                                                             }
                                                         </div>
-                                                        <div className="button-group">
-                                                            <Link to="#"><i className="far fa-heart" /></Link>
-                                                            <Link to="#"><i className="far fa-sync-alt" /></Link>
-                                                            <Link to="#"><i className="far fa-eye" /></Link>
-                                                        </div>
                                                     </div>
                                                     <div className="desc">
                                                         <h4>
-                                                            <Link to="/shop-detail">{item.title}</Link>
+                                                            <Link to={`/book-appointment?service=${this.props.page + ' ' + item.title}`}>{item.title}</Link>
                                                         </h4>
                                                         <span className="price">${item.price}
                                                             {item.discount > 0 || item.discount !== '' ? <span> ${Math.ceil(item.price * (item.discount / 100))} </span> : ''}</span>
-                                                        <Link to="/shop-detail" className="link"><i className="fal fa-arrow-right" /></Link>
+                                                        <Link to={`/book-appointment?service=${this.props.page + ' ' + item.title}`} className="link"><i className="fal fa-arrow-right" /></Link>
                                                     </div>
                                                 </div>
                                             </div>

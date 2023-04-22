@@ -1,37 +1,31 @@
 
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Pagination from '../../layouts/Pagination';
-import Sidebar from '../../layouts/Shopsidebar';
 
-import img1 from '../../../assets/img/shop/01.jpg';
-import img2 from '../../../assets/img/shop/02.jpg';
-import img3 from '../../../assets/img/shop/03.jpg';
+import logo from '../../../assets/img/logo.png';
 
 const shopgridpost = [
-    { img: img1, title: 'Regular', discount: '', price: 20 },
-    { img: img2, title: 'Partials', discount: '', price: 35 },
-    { img: img3, title: 'Style', discount: '', price: 20 },
+    { img: logo, title: 'Regular', discount: '', price: 75 },
+    { img: logo, title: 'Partial', discount: '', price: 60 },
+    { img: logo, title: 'Style', discount: '', price: 30 },
 
-    { img: img1, title: 'Spiral Add-On', discount: '', price: 25 },
-    { img: img2, title: 'Starter (Partials)', discount: '', price: 40 },
-    { img: img3, title: 'Microlocs', discount: '', price: 20 },
+    { img: logo, title: 'Spiral Add-On', discount: '', price: 65 },
+    { img: logo, title: 'Starter (Partials)', discount: '', price: 75 },
+    { img: logo, title: 'Microlocs', discount: '', price: 400 },
 
-    { img: img1, title: 'InstaLocs', discount: '', price: 40 },
-    { img: img2, title: 'Microlocs Tighten', discount: '', price: 10 },
-    { img: img3, title: 'Retwist(Long/small)', discount: '', price: 15 },
+    { img: logo, title: 'InstaLocs', discount: '', price: 300 },
+    { img: logo, title: 'Microlocs Tighten', discount: '', price: 200 },
+    { img: logo, title: 'Retwist(Long/small)', discount: '', price: 100 },
 
-    { img: img1, title: '2ST Add-On', discount: '', price: 25 },
-    { img: img2, title: 'Starter', discount: '', price: 290 },
-    { img: img3, title: 'Repair (per Locs) ', discount: '', price: 450 },
+    { img: logo, title: '2ST Add-On', discount: '', price: 15 },
+    { img: logo, title: 'Starter', discount: '', price: 150 },
+    { img: logo, title: 'Repair (per Locs) ', discount: '', price: 15 },
 
-    { img: img1, title: 'InterLocs', discount: '', price: 25 },
-    { img: img2, title: 'Style', discount: '', price: 290 },
-    { img: img3, title: 'InstaLocs (Custom)', discount: '', price: 450 },
+    { img: logo, title: 'InterLocs', discount: '', price: 160 },
+    { img: logo, title: 'Style', discount: '', price: 'ASK' },
+    { img: logo, title: 'InstaLocs (Custom)', discount: '', price: 1200 },
 
-    { img: img1, title: 'Starter Loc Small', discount: '', price: 25 },
-    { img: img2, title: 'Style', discount: '', price: 290 },
-    { img: img3, title: 'InstaLocs (Custom)', discount: '', price: 450 },
+    { img: logo, title: 'Starter Loc Small', discount: '', price: 200 },
 ];
 class Content extends Component {
     render() {
@@ -39,25 +33,8 @@ class Content extends Component {
             <section className="Shop-section pt-120 pb-120">
                 <div className="container">
                     <div className="row justify-content-center">
-                        {/* Shop Sidebar */}
-                        {/* <div className="col-lg-4 col-md-10 col-sm-10"> */}
-                        {/* <Sidebar /> */}
-                        {/* </div> */}
                         <div className="col-lg-8 col-md-10">
                             <div className="shop-products-wrapper">
-                                <div className="shop-product-top">
-                                    <p>Showing 1 To 9 Of 60 results</p>
-                                    <div className="sorting-box">
-                                        <select name="guests" id="guests" className="nice-select">
-                                            <option value={0}>Default Sorting</option>
-                                            <option value={1}>Sort By Popularity</option>
-                                            <option value={2}>Sort By Latest</option>
-                                            <option value={4}>Sort By Rating</option>
-                                            <option value={8}>Sort By Price:Low to High</option>
-                                            <option value={8}>Sort By Price:High to Low</option>
-                                        </select>
-                                    </div>
-                                </div>
                                 <div className="product-wrapper restaurant-tab-area">
                                     <div className="row">
                                         {shopgridpost.map((item, i) => (
@@ -73,28 +50,20 @@ class Content extends Component {
                                                                 item.discount > 0 || item.discount !== '' ? <span className="price discounted">-{item.discount}%</span> : ''
                                                             }
                                                         </div>
-                                                        <div className="button-group">
-                                                            <Link to="#"><i className="far fa-heart" /></Link>
-                                                            <Link to="#"><i className="far fa-sync-alt" /></Link>
-                                                            <Link to="#"><i className="far fa-eye" /></Link>
-                                                        </div>
                                                     </div>
                                                     <div className="desc">
                                                         <h4>
-                                                            <Link to="/shop-detail">{item.title}</Link>
+                                                            <Link to={`/book-appointment?service=${this.props.page + ' ' + item.title}`} >{item.title}</Link>
                                                         </h4>
                                                         <span className="price">${item.price}
                                                             {item.discount > 0 || item.discount !== '' ? <span> ${Math.ceil(item.price * (item.discount / 100))} </span> : ''}</span>
-                                                        <Link to="/shop-detail" className="link"><i className="fal fa-arrow-right" /></Link>
+                                                        <Link to={`/book-appointment?service=${this.props.page + ' ' + item.title}`} className="link"><i className="fal fa-arrow-right" /></Link>
                                                     </div>
                                                 </div>
                                             </div>
                                         ))}
                                     </div>
                                 </div>
-                            </div>
-                            <div className="pagination-wrap">
-                                <Pagination />
                             </div>
                         </div>
                     </div>

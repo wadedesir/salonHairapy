@@ -20,33 +20,33 @@ const Shopleft = () => {
     function getContent() {
         switch (page) {
             case 'beauty':
-                return <Content.Beauty />
+                return <Content.Beauty page={page} />
             case 'braid-extensions':
-                return <Content.Braids />
+                return <Content.Braids page={page} />
             case 'braid-naturals':
-                return <Content.BraidN />
+                return <Content.BraidN page={page} />
             case 'kstar':
-                return <Content.KStar />
+                return <Content.KStar page={page} />
             case 'locs':
-                return <Content.Locs />
+                return <Content.Locs page={page} />
             case 'colors':
-                return <Content.Colors />
+                return <Content.Colors page={page} />
             case 'cuts-trims':
-                return <Content.Cuts />
+                return <Content.Cuts page={page} />
             case 'sets':
-                return <Content.Sets />
+                return <Content.Sets page={page} />
             case 'twists-naturals':
-                return <Content.Twists />
+                return <Content.Twists page={page} />
             case 'presses':
-                return <Content.Presses />
+                return <Content.Presses page={page} />
             case 'weaves':
-                return <Content.Weaves />
+                return <Content.Weaves page={page} />
             case 'wash-treatments':
-                return <Content.Wash />
+                return <Content.Wash page={page} />
             case 'relaxers':
-                return <Content.Relaxers />
+                return <Content.Relaxers page={page} />
             // case 'kids-corner':
-            //     return <Content.KidsCorner />
+            //     return <Content.KidsCorner page={page} />
 
 
         }

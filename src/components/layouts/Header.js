@@ -143,7 +143,7 @@ class Header extends Component {
                                                                 </li>
                                                             </ul> */}
                                                         </li>
-                                                        <li className="menu-item menu-item-has-children menu-item-has-megamenu d-none">
+                                                        <li className="menu-item menu-item-has-children menu-item-has-megamenu">
                                                             <Link to="#">
                                                                 Products & Services
                                                             </Link>

@@ -1,28 +1,28 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Pagination from '../../layouts/Pagination';
-import Sidebar from '../../layouts/Shopsidebar';
 
-import img1 from '../../../assets/img/shop/01.jpg';
-import img2 from '../../../assets/img/shop/02.jpg';
-import img3 from '../../../assets/img/shop/03.jpg';
+import logo from '../../../assets/img/logo.png';
 
 const shopgridpost = [
-    { img: img1, title: 'KStar Oil', discount: '', price: 20 },
-    { img: img2, title: 'KStar Protein', discount: '', price: 35 },
-    { img: img3, title: 'KStar Shampoo', discount: '', price: 20 },
+    { img: logo, title: 'Full Sew In', discount: '', price: 250 },
+    { img: logo, title: 'Removal', discount: '', price: 40 },
+    { img: logo, title: 'Tighten (per Track)', discount: '', price: 15 },
 
-    { img: img1, title: 'KStar Gel', discount: '', price: 25 },
-    { img: img2, title: 'KStar Oils (large)', discount: '', price: 40 },
-    { img: img3, title: 'Heat Protector', discount: '', price: 20 },
+    { img: logo, title: 'Full with Lace Front', discount: '', price: 350 },
+    { img: logo, title: 'Wig Fitting', discount: '', price: 110 },
+    { img: logo, title: 'Sew (per Track)', discount: '', price: 30 },
 
-    { img: img1, title: 'KStar Conditioner', discount: '', price: 40 },
-    { img: img2, title: 'KStar Shampoo', discount: '', price: 10 },
-    { img: img3, title: 'Shea(small)', discount: '', price: 15 },
+    { img: logo, title: 'Advanced Lace Closure', discount: '', price: 'ASK' },
+    { img: logo, title: 'Vixen Sew-in', discount: '', price: 250 },
+    { img: logo, title: 'Partial Sew-In', discount: '', price: 200 },
 
-    { img: img1, title: 'Shea Sealer', discount: '', price: 25 },
-    { img: img2, title: 'Stud Earrings', discount: '', price: 290 },
-    { img: img3, title: 'Crumpled Ring', discount: '', price: 450 },
+    { img: logo, title: 'Custom (Knots/Bleach)', discount: '', price: 65 },
+    { img: logo, title: 'Lace Front Refresh', discount: '', price: 80 },
+    { img: logo, title: 'Quick Weave', discount: '', price: 250 },
+
+    { img: logo, title: 'Regular Lace Closure', discount: '', price: 40 },
+    { img: logo, title: 'Partial Clip-Ins', discount: '', price: 100 },
+    { img: logo, title: 'Microlink(Full)', discount: '', price: 250 },
 ];
 class Content extends Component {
     render() {
@@ -36,19 +36,6 @@ class Content extends Component {
                         {/* </div> */}
                         <div className="col-lg-8 col-md-10">
                             <div className="shop-products-wrapper">
-                                <div className="shop-product-top">
-                                    <p>Showing 1 To 9 Of 60 results</p>
-                                    <div className="sorting-box">
-                                        <select name="guests" id="guests" className="nice-select">
-                                            <option value={0}>Default Sorting</option>
-                                            <option value={1}>Sort By Popularity</option>
-                                            <option value={2}>Sort By Latest</option>
-                                            <option value={4}>Sort By Rating</option>
-                                            <option value={8}>Sort By Price:Low to High</option>
-                                            <option value={8}>Sort By Price:High to Low</option>
-                                        </select>
-                                    </div>
-                                </div>
                                 <div className="product-wrapper restaurant-tab-area">
                                     <div className="row">
                                         {shopgridpost.map((item, i) => (
@@ -64,28 +51,20 @@ class Content extends Component {
                                                                 item.discount > 0 || item.discount !== '' ? <span className="price discounted">-{item.discount}%</span> : ''
                                                             }
                                                         </div>
-                                                        <div className="button-group">
-                                                            <Link to="#"><i className="far fa-heart" /></Link>
-                                                            <Link to="#"><i className="far fa-sync-alt" /></Link>
-                                                            <Link to="#"><i className="far fa-eye" /></Link>
-                                                        </div>
                                                     </div>
                                                     <div className="desc">
                                                         <h4>
-                                                            <Link to="/shop-detail">{item.title}</Link>
+                                                            <Link to={`/book-appointment?service=${this.props.page + ' ' + item.title}`} >{item.title}</Link>
                                                         </h4>
                                                         <span className="price">${item.price}
                                                             {item.discount > 0 || item.discount !== '' ? <span> ${Math.ceil(item.price * (item.discount / 100))} </span> : ''}</span>
-                                                        <Link to="/shop-detail" className="link"><i className="fal fa-arrow-right" /></Link>
+                                                        <Link to={`/book-appointment?service=${this.props.page + ' ' + item.title}`} className="link"><i className="fal fa-arrow-right" /></Link>
                                                     </div>
                                                 </div>
                                             </div>
                                         ))}
                                     </div>
                                 </div>
-                            </div>
-                            <div className="pagination-wrap">
-                                <Pagination />
                             </div>
                         </div>
                     </div>

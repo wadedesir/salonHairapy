@@ -3,18 +3,16 @@ import { Link } from 'react-router-dom';
 import Pagination from '../../layouts/Pagination';
 import Sidebar from '../../layouts/Shopsidebar';
 
-import img1 from '../../../assets/img/shop/01.jpg';
-import img2 from '../../../assets/img/shop/02.jpg';
-import img3 from '../../../assets/img/shop/03.jpg';
+import logo from '../../../assets/img/logo.png';
 
 const shopgridpost = [
-    { img: img1, title: 'Regular', discount: '', price: 20 },
-    { img: img2, title: 'Silk Press', discount: '', price: 35 },
-    { img: img3, title: 'Curl', discount: '', price: 20 },
+    { img: logo, title: 'Regular', discount: '', price: 70 },
+    { img: logo, title: 'Silk Press', discount: '', price: 90 },
+    { img: logo, title: 'Curl', discount: '', price: 40 },
 
-    { img: img1, title: 'press (Long)', discount: '', price: 25 },
-    { img: img2, title: 'Silk Press (Long)', discount: '', price: 40 },
-    { img: img3, title: 'Formal UpDo', discount: '', price: 20 },
+    { img: logo, title: 'press (Long)', discount: '', price: 85 },
+    { img: logo, title: 'Silk Press (Long)', discount: '', price: 125 },
+    { img: logo, title: 'Formal UpDo', discount: '', price: 150 },
 
 ];
 class Content extends Component {
@@ -29,19 +27,7 @@ class Content extends Component {
                         {/* </div> */}
                         <div className="col-lg-8 col-md-10">
                             <div className="shop-products-wrapper">
-                                <div className="shop-product-top">
-                                    <p>Showing 1 To 9 Of 60 results</p>
-                                    <div className="sorting-box">
-                                        <select name="guests" id="guests" className="nice-select">
-                                            <option value={0}>Default Sorting</option>
-                                            <option value={1}>Sort By Popularity</option>
-                                            <option value={2}>Sort By Latest</option>
-                                            <option value={4}>Sort By Rating</option>
-                                            <option value={8}>Sort By Price:Low to High</option>
-                                            <option value={8}>Sort By Price:High to Low</option>
-                                        </select>
-                                    </div>
-                                </div>
+
                                 <div className="product-wrapper restaurant-tab-area">
                                     <div className="row">
                                         {shopgridpost.map((item, i) => (
@@ -57,28 +43,20 @@ class Content extends Component {
                                                                 item.discount > 0 || item.discount !== '' ? <span className="price discounted">-{item.discount}%</span> : ''
                                                             }
                                                         </div>
-                                                        <div className="button-group">
-                                                            <Link to="#"><i className="far fa-heart" /></Link>
-                                                            <Link to="#"><i className="far fa-sync-alt" /></Link>
-                                                            <Link to="#"><i className="far fa-eye" /></Link>
-                                                        </div>
                                                     </div>
                                                     <div className="desc">
                                                         <h4>
-                                                            <Link to="/shop-detail">{item.title}</Link>
+                                                            <Link to={`/book-appointment?service=${this.props.page + ' ' + item.title}`}>{item.title}</Link>
                                                         </h4>
                                                         <span className="price">${item.price}
                                                             {item.discount > 0 || item.discount !== '' ? <span> ${Math.ceil(item.price * (item.discount / 100))} </span> : ''}</span>
-                                                        <Link to="/shop-detail" className="link"><i className="fal fa-arrow-right" /></Link>
+                                                        <Link to={`/book-appointment?service=${this.props.page + ' ' + item.title}`} className="link"><i className="fal fa-arrow-right" /></Link>
                                                     </div>
                                                 </div>
                                             </div>
                                         ))}
                                     </div>
                                 </div>
-                            </div>
-                            <div className="pagination-wrap">
-                                <Pagination />
                             </div>
                         </div>
                     </div>
