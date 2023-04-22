@@ -145,7 +145,7 @@ class Header extends Component {
                                                         </li>
                                                         <li className="menu-item menu-item-has-children menu-item-has-megamenu d-none">
                                                             <Link to="#">
-                                                                Items & Services
+                                                                Products & Services
                                                             </Link>
                                                             <div className="sub-menu">
                                                                 <div className="container">
