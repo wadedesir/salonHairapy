@@ -30,69 +30,79 @@ const navigationmenu = [
         //     },
         // ]
     },
-    // {
-    //     id: 2,
-    //     linkText: 'Services',
-    //     child: true,
-    //     submenu: [
-    //         {
-    //             id: 21,
-    //             link: '/items-services/beauty',
-    //             linkText: 'Beauty'
-    //         },
-    //         {
-    //             id: 22,
-    //             link: '/items-services/braid-extensions',
-    //             linkText: 'Braid Extensions'
-    //         },
-    //         {
-    //             id: 23,
-    //             link: '/items-services/braid-naturals',
-    //             linkText: 'Braid Naturals'
-    //         },
-    //         {
-    //             id: 24,
-    //             link: '/items-services/colors',
-    //             linkText: 'Colors'
-    //         },
-    //         {
-    //             id: 25,
-    //             link: '/items-services/cuts-and-trims',
-    //             linkText: 'Locs'
-    //         },
-    //         {
-    //             id: 26,
-    //             link: '/items-services/presses',
-    //             linkText: 'Presses'
-    //         },
-    //         {
-    //             id: 27,
-    //             link: '/items-services/relaxers',
-    //             linkText: 'Relaxers'
-    //         },
-    //         {
-    //             id: 28,
-    //             link: '/items-services/sets',
-    //             linkText: 'Sets'
-    //         },
-    //         {
-    //             id: 29,
-    //             link: '/items-services/twist-naturals',
-    //             linkText: 'Twist/Naturals'
-    //         },
-    //         {
-    //             id: 210,
-    //             link: '/items-services/wash-treatments',
-    //             linkText: 'Wash/Treatments'
-    //         },
-    //         {
-    //             id: 211,
-    //             link: '/items-services/weaves',
-    //             linkText: 'Weaves'
-    //         },
+    {
+        id: 2,
+        linkText: 'Products & Services',
+        child: true,
+        submenu: [
+            {
+                id: 21,
+                link: '/products-services&beauty',
+                linkText: 'Beauty'
+            },
+            {
+                id: 22,
+                link: '/products-services&braid-extensions',
+                linkText: 'Braid Extensions'
+            },
+            {
+                id: 23,
+                link: '/products-services&braid-naturals',
+                linkText: 'Braid Naturals'
+            },
+            {
+                id: 24,
+                link: '/products-services&colors',
+                linkText: 'Colors'
+            },
+            {
+                id: 25,
+                link: '/products-services&cuts-trims',
+                linkText: 'Cuts/Trims'
+            },
+            {
+                id: 251,
+                link: '/products-services&locs',
+                linkText: 'Locs'
+            },
+            {
+                id: 26,
+                link: '/products-services&presses',
+                linkText: 'Presses'
+            },
+            {
+                id: 27,
+                link: '/products-services&relaxers',
+                linkText: 'Relaxers'
+            },
+            {
+                id: 28,
+                link: '/products-services&sets',
+                linkText: 'Sets'
+            },
+            {
+                id: 29,
+                link: '/products-services&twist-naturals',
+                linkText: 'Twist/Naturals'
+            },
+            {
+                id: 210,
+                link: '/products-services&wash-treatments',
+                linkText: 'Wash/Treatments'
+            },
+            {
+                id: 211,
+                link: '/products-services&weaves',
+                linkText: 'Weaves'
+            },
+            {
+                id: 212,
+                link: '/products-services&kstar',
+                linkText: 'KStar'
+            },
 
-    //     ]
-    // },
+        ]
+    },
     // {
     //     id: 3,
     //     linkText: 'KStar Essentials',
