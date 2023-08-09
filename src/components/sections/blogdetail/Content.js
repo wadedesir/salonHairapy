@@ -60,7 +60,7 @@ class Content extends Component {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="author-info-box mb-45">
+                                    {/* <div className="author-info-box mb-45">
                                         <div className="author-img">
                                             <img src={authorimg} alt="" />
                                         </div>
@@ -81,7 +81,7 @@ class Content extends Component {
                                                 <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="author-info-box mb-45">
                                         <div className="author-img">
                                             <img src={menna} alt="" />
@@ -90,9 +90,7 @@ class Content extends Component {
                                             <span>Receptionist</span>
                                             <h3>Menna</h3>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-                                                iste natus error sit voluptatem.
+                                                Coming soon...
                                             </p>
                                             <ul className="social-icon d-flex mt-45 justify-content-around">
                                                 <li><a className='contact-icons' href="https://twitter.com/kstarhair?t=Ho6JdHjQmncIThcHvmoAqQ&s=09"> <i className="fab fa-twitter" /> </a></li>
@@ -104,7 +102,7 @@ class Content extends Component {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="author-info-box mb-45">
+                                    {/* <div className="author-info-box mb-45">
                                         <div className="author-img">
                                             <img src={authorimg} alt="" />
                                         </div>
@@ -125,8 +123,8 @@ class Content extends Component {
                                                 <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
                                             </ul>
                                         </div>
-                                    </div>
-                                    <div className="author-info-box mb-45">
+                                    </div> */}
+                                    {/* <div className="author-info-box mb-45">
                                         <div className="author-img">
                                             <img src={authorimg} alt="" />
                                         </div>
@@ -147,7 +145,7 @@ class Content extends Component {
                                                 <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

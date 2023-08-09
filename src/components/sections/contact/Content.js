@@ -1,7 +1,7 @@
 import React from 'react';
 import Contacthelper from '../../../helper/Contacthelper';
 import { Alert } from 'react-bootstrap';
-import Stylist from '../../../assets/img/author.png';
+import Stylist from '../../../assets/img/icon2.jpeg';
 import Kathy from "../../../assets/img/custom/kathy.jpg";
 
 class Content extends Contacthelper {
