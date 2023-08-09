@@ -7,6 +7,7 @@ import img2 from '../../../assets/img/blog-details/04.jpg';
 
 import kathy from '../../../assets/img/custom/kathy.jpg'
 import menna from '../../../assets/img/menna.jpg'
+import icon2 from '../../../assets/img/icon2.jpeg'
 
 const relatedtags = [
     { tag: 'Rings' },
@@ -60,17 +61,15 @@ class Content extends Component {
                                             </ul>
                                         </div>
                                     </div>
-                                    {/* <div className="author-info-box mb-45">
+                                    <div className="author-info-box mb-45">
                                         <div className="author-img">
-                                            <img src={authorimg} alt="" />
+                                            <img src={icon2} alt="" />
                                         </div>
                                         <div className="info-text">
                                             <span>Lead Stylist</span>
                                             <h3>Cassandra</h3>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-                                                iste natus error sit voluptatem.
+                                                Coming soon...
                                             </p>
                                             <ul className="social-icon d-flex mt-45 justify-content-around">
                                                 <li><a className='contact-icons' href="https://twitter.com/kstarhair?t=Ho6JdHjQmncIThcHvmoAqQ&s=09"> <i className="fab fa-twitter" /> </a></li>
@@ -81,7 +80,7 @@ class Content extends Component {
                                                 <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
                                             </ul>
                                         </div>
-                                    </div> */}
+                                    </div>
                                     <div className="author-info-box mb-45">
                                         <div className="author-img">
                                             <img src={menna} alt="" />
@@ -102,17 +101,15 @@ class Content extends Component {
                                             </ul>
                                         </div>
                                     </div>
-                                    {/* <div className="author-info-box mb-45">
+                                    <div className="author-info-box mb-45">
                                         <div className="author-img">
-                                            <img src={authorimg} alt="" />
+                                            <img src={icon2} alt="" />
                                         </div>
                                         <div className="info-text">
                                             <span>Stylist</span>
                                             <h3>Christy</h3>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-                                                iste natus error sit voluptatem.
+                                                Coming soon...
                                             </p>
                                             <ul className="social-icon d-flex mt-45 justify-content-around">
                                                 <li><a className='contact-icons' href="https://twitter.com/kstarhair?t=Ho6JdHjQmncIThcHvmoAqQ&s=09"> <i className="fab fa-twitter" /> </a></li>
@@ -123,18 +120,16 @@ class Content extends Component {
                                                 <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
                                             </ul>
                                         </div>
-                                    </div> */}
-                                    {/* <div className="author-info-box mb-45">
+                                    </div>
+                                    <div className="author-info-box mb-45">
                                         <div className="author-img">
-                                            <img src={authorimg} alt="" />
+                                            <img src={icon2} alt="" />
                                         </div>
                                         <div className="info-text">
                                             <span>Assistant Manager</span>
                                             <h3>Lauren</h3>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-                                                iste natus error sit voluptatem.
+                                                Coming soon...
                                             </p>
                                             <ul className="social-icon d-flex mt-45 justify-content-around">
                                                 <li><a className='contact-icons' href="https://twitter.com/kstarhair?t=Ho6JdHjQmncIThcHvmoAqQ&s=09"> <i className="fab fa-twitter" /> </a></li>
@@ -145,7 +140,7 @@ class Content extends Component {
                                                 <li><a className='contact-icons' href="https://www.tiktok.com/@kstarbeauty?_t=8aZ5zhCx7aE&_r=1"> <i className="fab fa-tiktok" /> </a></li>
                                             </ul>
                                         </div>
-                                    </div> */}
+                                    </div>
                                 </div>
                             </div>
                         </div>
